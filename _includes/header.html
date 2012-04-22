@@ -8,10 +8,12 @@
 		<ul>
 			{% for item in page.menu %}
 				<li>
-					<a href="{{url}}/{{item}}.html">
-						<img src="{{url}}/imgs/header/{{item}}button.jpg" class="normal" />
-						<img src="{{url}}/imgs/header/{{item}}button_mouseover.jpg" class="active" />
-					</a>
+					<figure>
+						<a href="{{url}}/{{item}}.html">
+							<img src="{{url}}/imgs/header/{{item}}button.jpg" class="normal" />
+							<img src="{{url}}/imgs/header/{{item}}button_mouseover.jpg" class="active" />
+						</a>
+					</figure>
 					<ul>
 						{% for post in site.posts %}
 							{% if post.category contains item %}
