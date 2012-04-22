@@ -63,13 +63,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 3, ../sass/screen.scss */
-body {
-  font-family: 'Ruluko';
-  font-size: 14pt;
+/* line 4, ../sass/screen.scss */
+html, body {
+  height: 100%;
 }
 
 /* line 8, ../sass/screen.scss */
-strong {
-  font-weight: 700;
+body {
+  width: 980px;
+  margin: 0 auto;
+  padding-left: 80px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
