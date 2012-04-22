@@ -1,4 +1,4 @@
 ---
-layout: boilerplate
+layout: mainframe
 ---
 This site is **under construction**.
