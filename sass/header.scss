@@ -2,8 +2,8 @@
 @import "fonts";
 @import "rollout";
 
-$logo-offset-x: 75px;
-$navi-button-distance-left:32px;
+$logo-offset-x: 5px;
+$navi-button-distance-left:45px;
 
 $rollout-item-margin: 10px;
 
@@ -15,10 +15,9 @@ body > header {
 	max-height: 84px;
 
 	#logo {
-		position: relative;
-		float:left;
+		position: absolute;
 		margin-top:20px;
- 		left: $logo-offset-x*-1;
+ 		left: $logo-offset-x;
 	}
 
 	nav {
@@ -29,7 +28,6 @@ body > header {
 		> ul {
 			display: inline-block;
 			padding-top: 50px;
-			float: left;
 			> li {
 				position: relative;
 				margin-left: $navi-button-distance-left;
