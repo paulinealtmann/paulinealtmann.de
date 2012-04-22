@@ -1,8 +1,11 @@
 @import "compass/utilities/general/clearfix";
+@import "fonts";
 @import "rollout";
 
 $logo-offset-x: 75px;
 $navi-button-distance-left:32px;
+
+$rollout-item-margin: 10px;
 
 $rollout-animation-duration: 1s;
 $rollout-animation: linear;
@@ -28,26 +31,41 @@ body > header {
 			padding-top: 50px;
 			float: left;
 			> li {
-				overflow: hidden;
 				position: relative;
 				margin-left: $navi-button-distance-left;
-
 				vertical-align: top;
 				display: inline-block;
+				background-color: white;
 				@include rollout($rollout-animation-duration, $rollout-animation, ul);
-				.normal {
-					display: block;
+				figure {
+					margin-bottom: 5px;
+					.normal {
+						display: block;
+					}
+					.active {
+						display: none;
+					}
 				}
-				.active {
-					display: none;
+				ul {
+					position: absolute;
+					overflow: hidden;
+					background-color: white;
+					width: 200px;
+					li {
+						@include rollout-font;
+						margin: $rollout-item-margin;
+					}
 				}
 			}
 			li:hover {
-				.normal {
-					display: none;
-				}
-				.active {
-					display: block;
+				figure {
+					border-bottom: 1px dotted black;
+					.normal {
+						display: none;
+					}
+					.active {
+						display: block;
+					}
 				}
 			}
 		}
