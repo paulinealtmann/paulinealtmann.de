@@ -17,4 +17,9 @@ body {
 	padding-left: 80px;
 }
 
+#content {
+	@include normal-font();
+}
+
 @import "header";
+@import "project";

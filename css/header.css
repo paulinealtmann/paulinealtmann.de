@@ -1,7 +1,7 @@
-/* line 13, ../sass/header.scss */
+/* line 15, ../sass/header.scss */
 body > header {
   *zoom: 1;
-  max-height: 84px;
+  margin-bottom: 25px;
 }
 /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 body > header:after {
@@ -9,24 +9,24 @@ body > header:after {
   display: table;
   clear: both;
 }
-/* line 17, ../sass/header.scss */
+/* line 19, ../sass/header.scss */
 body > header #logo {
   position: absolute;
   margin-top: 20px;
   left: 5px;
 }
-/* line 23, ../sass/header.scss */
+/* line 25, ../sass/header.scss */
 body > header nav {
   position: relative;
   display: inline-block;
   float: right;
 }
-/* line 28, ../sass/header.scss */
+/* line 30, ../sass/header.scss */
 body > header nav > ul {
   display: inline-block;
   padding-top: 50px;
 }
-/* line 31, ../sass/header.scss */
+/* line 33, ../sass/header.scss */
 body > header nav > ul > li {
   position: relative;
   margin-left: 45px;
@@ -54,26 +54,26 @@ body > header nav > ul > li ul {
 body > header nav > ul > li:hover ul {
   max-height: 400px !important;
 }
-/* line 38, ../sass/header.scss */
+/* line 40, ../sass/header.scss */
 body > header nav > ul > li figure {
   margin-bottom: 5px;
 }
-/* line 40, ../sass/header.scss */
+/* line 42, ../sass/header.scss */
 body > header nav > ul > li figure .normal {
   display: block;
 }
-/* line 43, ../sass/header.scss */
+/* line 45, ../sass/header.scss */
 body > header nav > ul > li figure .active {
   display: none;
 }
-/* line 47, ../sass/header.scss */
+/* line 49, ../sass/header.scss */
 body > header nav > ul > li ul {
   position: absolute;
   overflow: hidden;
   background-color: white;
   width: 200px;
 }
-/* line 52, ../sass/header.scss */
+/* line 54, ../sass/header.scss */
 body > header nav > ul > li ul li {
   font-family: 'Ruluko';
   color: #707070;
@@ -93,15 +93,15 @@ body > header nav > ul > li ul li a, body > header nav > ul > li ul li a:link a:
 body > header nav > ul > li ul li a:hover, body > header nav > ul > li ul li a.activer {
   color: #84acb0;
 }
-/* line 59, ../sass/header.scss */
+/* line 61, ../sass/header.scss */
 body > header nav > ul li:hover figure {
   border-bottom: 1px dotted black;
 }
-/* line 61, ../sass/header.scss */
+/* line 63, ../sass/header.scss */
 body > header nav > ul li:hover figure .normal {
   display: none;
 }
-/* line 64, ../sass/header.scss */
+/* line 66, ../sass/header.scss */
 body > header nav > ul li:hover figure .active {
   display: block;
 }
