@@ -1,7 +1,12 @@
 ---
 layout: mainframe
 ---
-{% for img in page.images %}
-	{{img.name}} => {{img.position.x}}, {{img.position.y}}
-{% endfor %}
-{{content}}
+<header>
+	<p class="short">{{page.title}} · {{page.type}} · {{page.additional}}</p>
+	<p class="desc">{{content}}</p>
+</header>
+<div id="images">
+	{% for img in page.images %}
+		<img src="{{url}}/imgs/{{page.category}}/{{img.name}}" style="left: {{img.position.x}}px; top:{{img.position.y}}px" />
+	{% endfor %}
+</div>

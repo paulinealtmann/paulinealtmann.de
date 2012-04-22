@@ -84,6 +84,26 @@ body {
   padding-left: 80px;
 }
 
+/* line 20, ../sass/screen.scss */
+#content {
+  font-family: 'Ruluko';
+  color: #707070;
+  font-size: 10pt;
+  text-decoration: none;
+  font-weight: normal;
+}
+/* line 28, ../sass/fonts.scss */
+#content a, #content a:link a:active, #content a:visited, #content a:hover {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+/* line 34, ../sass/fonts.scss */
+#content a:hover, #content a.activer {
+  color: #84acb0;
+}
+
 /* line 15, ../sass/header.scss */
 body > header {
   *zoom: 1;
@@ -190,4 +210,25 @@ body > header nav > ul li:hover figure .normal {
 /* line 66, ../sass/header.scss */
 body > header nav > ul li:hover figure .active {
   display: block;
+}
+
+/* line 1, ../sass/project.scss */
+header {
+  margin-bottom: 25px;
+}
+/* line 2, ../sass/project.scss */
+header .short {
+  font-size: 11pt;
+  margin-bottom: 5px;
+}
+
+/* line 8, ../sass/project.scss */
+#images {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+/* line 12, ../sass/project.scss */
+#images img {
+  position: absolute;
 }

@@ -1,0 +1,20 @@
+/* line 1, ../sass/project.scss */
+header {
+  margin-bottom: 25px;
+}
+/* line 2, ../sass/project.scss */
+header .short {
+  font-size: 11pt;
+  margin-bottom: 5px;
+}
+
+/* line 8, ../sass/project.scss */
+#images {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+/* line 12, ../sass/project.scss */
+#images img {
+  position: absolute;
+}
