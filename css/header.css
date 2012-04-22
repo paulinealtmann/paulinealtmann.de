@@ -1,21 +1,56 @@
-/* line 4, ../sass/header.scss */
+/* line 5, ../sass/header.scss */
+body > header {
+  *zoom: 1;
+}
+/* line 38, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+body > header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 8, ../sass/header.scss */
 body > header #logo {
+  /*position: relative;
+  display:inline-block;
+  margin-top: 20px;
+  margin-right: 0px;
+  */
   position: relative;
+  float: left;
+  margin-top: 20px;
   left: -75px;
 }
-/* line 13, ../sass/header.scss */
+/* line 20, ../sass/header.scss */
+body > header nav {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+/* line 25, ../sass/header.scss */
+body > header nav li {
+  position: relative;
+  display: inline-block;
+  margin-right: 32px;
+  margin-top: 50px;
+}
+/* line 32, ../sass/header.scss */
 body > header nav figure .normal {
   display: block;
 }
-/* line 16, ../sass/header.scss */
+/* line 35, ../sass/header.scss */
 body > header nav figure .active {
   display: none;
 }
-/* line 21, ../sass/header.scss */
+/* line 40, ../sass/header.scss */
 body > header nav figure:hover .normal {
   display: none;
 }
-/* line 24, ../sass/header.scss */
+/* line 43, ../sass/header.scss */
 body > header nav figure:hover .active {
   display: block;
+}
+/* line 47, ../sass/header.scss */
+body > header nav ul {
+  display: inline-block;
+  float: left;
 }

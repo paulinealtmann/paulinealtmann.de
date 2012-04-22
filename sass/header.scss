@@ -1,13 +1,32 @@
 $logo-offset-x: 75px;
+$navi-button-distance-left:32px;
+@import "compass/utilities/general/clearfix";
 
 body > header {
+
+	@include pie-clearfix();
 	#logo {
-	position: relative;
-	left: -$logo-offset-x;
+		/*position: relative;
+		display:inline-block;
+		margin-top: 20px;
+		margin-right: 0px;
+		*/
+		position: relative;
+		float:left;
+		margin-top:20px;
+ 		left: $logo-offset-x*-1;
 	}
 
 	nav {
-		li {
+		position:relative;
+		display:inline-block;
+		float:right;
+
+		li{
+			position:relative;
+			display:inline-block;
+			margin-right: $navi-button-distance-left;
+			margin-top:50px;
 		}
 		figure {
 			.normal {
@@ -24,6 +43,10 @@ body > header {
 			.active {
 				display: block;
 			}
+		}
+		ul{
+			display: inline-block;
+			float:left;
 		}
 	}
 }

@@ -7,7 +7,7 @@
 	<nav>
 		<ul>
 			{% for item in page.menu %}
-				<li>
+				<li id="{{item}}">
 					<figure>
 						<a href="{{url}}/{{item}}.html">
 							<img src="{{url}}/imgs/header/{{item}}button.jpg" class="normal" />
