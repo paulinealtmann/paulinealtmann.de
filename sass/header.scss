@@ -5,6 +5,8 @@
 $logo-offset-x: 5px;
 $navi-button-distance-left:45px;
 
+$header-content-margin: 25px;
+
 $rollout-item-margin: 10px;
 
 $rollout-animation-duration: 1s;
@@ -12,7 +14,7 @@ $rollout-animation: linear;
 
 body > header {
 	@include pie-clearfix();
-	max-height: 84px;
+	margin-bottom: $header-content-margin;
 
 	#logo {
 		position: absolute;

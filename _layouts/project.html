@@ -1,0 +1,7 @@
+---
+layout: mainframe
+---
+{% for img in page.images %}
+	{{img.name}} => {{img.position.x}}, {{img.position.y}}
+{% endfor %}
+{{content}}
