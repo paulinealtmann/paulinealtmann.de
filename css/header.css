@@ -1,7 +1,7 @@
-/* line 9, ../sass/header.scss */
+/* line 10, ../sass/header.scss */
 body > header {
   *zoom: 1;
-  max-height: 85px;
+  max-height: 84px;
 }
 /* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 body > header:after {
@@ -9,48 +9,36 @@ body > header:after {
   display: table;
   clear: both;
 }
-/* line 13, ../sass/header.scss */
+/* line 14, ../sass/header.scss */
 body > header #logo {
-  /*position: relative;
-  display:inline-block;
-  margin-top: 20px;
-  margin-right: 0px;
-  */
   position: relative;
   float: left;
   margin-top: 20px;
   left: -75px;
 }
-/* line 25, ../sass/header.scss */
+/* line 21, ../sass/header.scss */
 body > header nav {
   position: relative;
   display: inline-block;
   float: right;
 }
-/* line 30, ../sass/header.scss */
+/* line 26, ../sass/header.scss */
 body > header nav > ul {
   display: inline-block;
-  float: left;
   padding-top: 50px;
+  float: left;
 }
-/* line 34, ../sass/header.scss */
+/* line 30, ../sass/header.scss */
 body > header nav > ul > li {
-  vertical-align: top;
   overflow: hidden;
   position: relative;
+  margin-left: 32px;
+  vertical-align: top;
   display: inline-block;
-  margin-right: 32px;
 }
-/* line 40, ../sass/header.scss */
-body > header nav > ul > li .normal {
-  display: block;
-}
-/* line 43, ../sass/header.scss */
-body > header nav > ul > li .active {
-  display: none;
-}
-/* line 46, ../sass/header.scss */
+/* line 5, ../sass/rollout.scss */
 body > header nav > ul > li ul {
+  max-height: 0;
   -moz-transition-property: max-height;
   -webkit-transition-property: max-height;
   -o-transition-property: max-height;
@@ -63,17 +51,24 @@ body > header nav > ul > li ul {
   -webkit-transition-timing-function: linear;
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
-  max-height: 0;
 }
-/* line 52, ../sass/header.scss */
+/* line 10, ../sass/rollout.scss */
+body > header nav > ul > li:hover ul {
+  max-height: 400px !important;
+}
+/* line 38, ../sass/header.scss */
+body > header nav > ul > li .normal {
+  display: block;
+}
+/* line 41, ../sass/header.scss */
+body > header nav > ul > li .active {
+  display: none;
+}
+/* line 46, ../sass/header.scss */
 body > header nav > ul li:hover .normal {
   display: none;
 }
-/* line 55, ../sass/header.scss */
+/* line 49, ../sass/header.scss */
 body > header nav > ul li:hover .active {
   display: block;
-}
-/* line 58, ../sass/header.scss */
-body > header nav > ul li:hover ul {
-  max-height: 400px !important;
 }
