@@ -63,13 +63,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 4, ../sass/screen.scss */
+/* line 5, ../sass/screen.scss */
 html, body {
   height: 100%;
 }
 
-/* line 8, ../sass/screen.scss */
+/* line 9, ../sass/screen.scss */
 body {
+  position: relative;
   width: 980px;
   margin: 0 auto;
   padding-left: 80px;
@@ -77,4 +78,26 @@ body {
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+/* line 4, ../sass/header.scss */
+body > header #logo {
+  position: relative;
+  left: -75px;
+}
+/* line 13, ../sass/header.scss */
+body > header nav figure .normal {
+  display: block;
+}
+/* line 16, ../sass/header.scss */
+body > header nav figure .active {
+  display: none;
+}
+/* line 21, ../sass/header.scss */
+body > header nav figure:hover .normal {
+  display: none;
+}
+/* line 24, ../sass/header.scss */
+body > header nav figure:hover .active {
+  display: block;
 }

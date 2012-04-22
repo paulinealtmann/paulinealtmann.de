@@ -1,0 +1,29 @@
+$logo-offset-x: 75px;
+
+body > header {
+	#logo {
+	position: relative;
+	left: -$logo-offset-x;
+	}
+
+	nav {
+		li {
+		}
+		figure {
+			.normal {
+				display: block;
+			}
+			.active {
+				display: none;
+			}
+		}
+		figure:hover {
+			.normal {
+				display: none;
+			}
+			.active {
+				display: block;
+			}
+		}
+	}
+}

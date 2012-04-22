@@ -1,0 +1,21 @@
+/* line 4, ../sass/header.scss */
+body > header #logo {
+  position: relative;
+  left: -75px;
+}
+/* line 13, ../sass/header.scss */
+body > header nav figure .normal {
+  display: block;
+}
+/* line 16, ../sass/header.scss */
+body > header nav figure .active {
+  display: none;
+}
+/* line 21, ../sass/header.scss */
+body > header nav figure:hover .normal {
+  display: none;
+}
+/* line 24, ../sass/header.scss */
+body > header nav figure:hover .active {
+  display: block;
+}

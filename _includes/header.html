@@ -1,0 +1,21 @@
+<header>
+	<figure id="logo">
+		<a href="{{url}}/">
+			<img src="{{url}}/imgs/header/logo.jpg" />
+		</a>
+	</figure>
+	<nav>
+		<ul>
+			{% for item in page.menu %}
+				<li>
+					<figure>
+						<a href="{{url}}/{{item}}.html">
+							<img src="{{url}}/imgs/header/{{item}}button.jpg" class="normal" />
+							<img src="{{url}}/imgs/header/{{item}}button_mouseover.jpg" class="active" />
+						</a>
+					</figure>
+				</li>
+			{% endfor %}
+		</ul>
+	</nav>
+</header>
