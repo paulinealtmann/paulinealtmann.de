@@ -1,3 +1,14 @@
-@mixin Rukulo {
+@import "color" ;
+
+@mixin Ruluko {
 	font-family: 'Ruluko';
+}
+
+@mixin footer-font{
+	@include Ruluko();
+	@include grey();
+}
+
+@mixin footer-font-link{
+	@inlude footer-font();
 }
