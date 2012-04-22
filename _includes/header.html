@@ -7,13 +7,20 @@
 	<nav>
 		<ul>
 			{% for item in page.menu %}
-				<li id="{{item}}">
-					<figure>
-						<a href="{{url}}/{{item}}.html">
-							<img src="{{url}}/imgs/header/{{item}}button.jpg" class="normal" />
-							<img src="{{url}}/imgs/header/{{item}}button_mouseover.jpg" class="active" />
-						</a>
-					</figure>
+				<li>
+					<a href="{{url}}/{{item}}.html">
+						<img src="{{url}}/imgs/header/{{item}}button.jpg" class="normal" />
+						<img src="{{url}}/imgs/header/{{item}}button_mouseover.jpg" class="active" />
+					</a>
+					<ul>
+						{% for post in site.posts %}
+							{% if post.category contains item %}
+								<li>
+									<a href="{{url}}{{post.url}}">{{post.title}}</a>
+								</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
 				</li>
 			{% endfor %}
 		</ul>

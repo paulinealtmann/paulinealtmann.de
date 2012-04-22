@@ -1,10 +1,15 @@
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/transition";
+
 $logo-offset-x: 75px;
 $navi-button-distance-left:32px;
-@import "compass/utilities/general/clearfix";
+$rollout-animation-duration: 1s;
+$rollout-animation: linear;
 
 body > header {
-
 	@include pie-clearfix();
+	max-height: 85px;
+
 	#logo {
 		/*position: relative;
 		display:inline-block;
@@ -18,35 +23,42 @@ body > header {
 	}
 
 	nav {
-		position:relative;
-		display:inline-block;
-		float:right;
+		position: relative;
+		display: inline-block;
+		float: right;
 
-		li{
-			position:relative;
-			display:inline-block;
-			margin-right: $navi-button-distance-left;
-			margin-top:50px;
-		}
-		figure {
-			.normal {
-				display: block;
-			}
-			.active {
-				display: none;
-			}
-		}
-		figure:hover {
-			.normal {
-				display: none;
-			}
-			.active {
-				display: block;
-			}
-		}
-		ul{
+		> ul {
 			display: inline-block;
-			float:left;
+			float: left;
+			padding-top: 50px;
+			> li {
+				vertical-align: top;
+				overflow: hidden;
+				position: relative;
+				display: inline-block;
+				margin-right: $navi-button-distance-left;
+				.normal {
+					display: block;
+				}
+				.active {
+					display: none;
+				}
+				ul {
+					@include single-transition("max-height", $rollout-animation-duration, $rollout-animation);
+					max-height: 0;
+				}
+			}
+			li:hover {
+				.normal {
+					display: none;
+				}
+				.active {
+					display: block;
+				}
+				ul {
+					max-height: 400px !important;
+				}
+			}
 		}
 	}
 }
