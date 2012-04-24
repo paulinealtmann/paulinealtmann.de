@@ -1,4 +1,0 @@
----
-title: "Projektname 2"
-category: typo
----

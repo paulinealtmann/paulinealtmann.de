@@ -1,4 +1,4 @@
-/* line 17, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../.gem/ruby/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../.gem/ruby/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.gem/ruby/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.gem/ruby/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.gem/ruby/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.gem/ruby/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../.gem/ruby/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.gem/ruby/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../.gem/ruby/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -69,38 +69,56 @@ html, body {
 }
 
 /* line 9, ../sass/screen.scss */
-body {
-  position: relative;
-  width: 980px;
-  margin: 0 auto;
-  padding-left: 80px;
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 9, ../sass/header.scss */
+/* line 13, ../sass/screen.scss */
+body {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  padding-left: 80px;
+}
+
+/* line 20, ../sass/screen.scss */
+#content {
+  font-family: 'Ruluko';
+  color: #707070;
+  font-size: 10pt;
+  text-decoration: none;
+  font-weight: normal;
+}
+/* line 42, ../sass/fonts.scss */
+#content a, #content a:link a:active, #content a:visited, #content a:hover {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+/* line 48, ../sass/fonts.scss */
+#content a:hover, #content a.activer {
+  color: #84acb0;
+}
+
+/* line 15, ../sass/header.scss */
 body > header {
   *zoom: 1;
-  max-height: 85px;
+  margin-bottom: 25px;
 }
-/* line 38, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../.gem/ruby/1.9.1/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 body > header:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 13, ../sass/header.scss */
+/* line 19, ../sass/header.scss */
 body > header #logo {
-  /*position: relative;
-  display:inline-block;
+  position: absolute;
   margin-top: 20px;
-  margin-right: 0px;
-  */
-  position: relative;
-  float: left;
-  margin-top: 20px;
-  left: -75px;
+  left: 5px;
 }
 /* line 25, ../sass/header.scss */
 body > header nav {
@@ -111,74 +129,132 @@ body > header nav {
 /* line 30, ../sass/header.scss */
 body > header nav > ul {
   display: inline-block;
-  float: left;
   padding-top: 50px;
 }
-/* line 34, ../sass/header.scss */
+/* line 33, ../sass/header.scss */
 body > header nav > ul > li {
-  vertical-align: top;
-  overflow: hidden;
   position: relative;
+  margin-left: 45px;
+  vertical-align: top;
   display: inline-block;
-  margin-right: 32px;
+  background-color: white;
 }
-/* line 40, ../sass/header.scss */
-body > header nav > ul > li .normal {
-  display: block;
-}
-/* line 43, ../sass/header.scss */
-body > header nav > ul > li .active {
-  display: none;
-}
-/* line 46, ../sass/header.scss */
+/* line 5, ../sass/rollout.scss */
 body > header nav > ul > li ul {
-  -webkit-transition: "max-height" 1s linear;
-  -moz-transition: "max-height" 1s linear;
-  -ms-transition: "max-height" 1s linear;
-  -o-transition: "max-height" 1s linear;
-  transition: "max-height" 1s linear;
   max-height: 0;
+  -webkit-transition: max-height 1s linear;
+  -moz-transition: max-height 1s linear;
+  -ms-transition: max-height 1s linear;
+  -o-transition: max-height 1s linear;
+  transition: max-height 1s linear;
 }
-/* line 52, ../sass/header.scss */
-body > header nav > ul li:hover .normal {
-  display: none;
-}
-/* line 55, ../sass/header.scss */
-body > header nav > ul li:hover .active {
-  display: block;
-}
-/* line 58, ../sass/header.scss */
-body > header nav > ul li:hover ul {
+/* line 10, ../sass/rollout.scss */
+body > header nav > ul > li:hover ul {
   max-height: 400px !important;
 }
+/* line 40, ../sass/header.scss */
+body > header nav > ul > li figure {
+  margin-bottom: 5px;
+}
+/* line 42, ../sass/header.scss */
+body > header nav > ul > li figure .normal {
+  display: block;
+}
+/* line 45, ../sass/header.scss */
+body > header nav > ul > li figure .active {
+  display: none;
+}
+/* line 49, ../sass/header.scss */
+body > header nav > ul > li ul {
+  position: absolute;
+  overflow: hidden;
+  background-color: white;
+  width: 200px;
+}
+/* line 54, ../sass/header.scss */
+body > header nav > ul > li ul li {
+  font-family: 'Ruluko';
+  color: #707070;
+  font-size: 10pt;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 10px;
+}
+/* line 25, ../sass/fonts.scss */
+body > header nav > ul > li ul li a, body > header nav > ul > li ul li a:link a:active, body > header nav > ul > li ul li a:visited, body > header nav > ul > li ul li a:hover {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+/* line 31, ../sass/fonts.scss */
+body > header nav > ul > li ul li a:hover, body > header nav > ul > li ul li a.activer {
+  color: #84acb0;
+}
+/* line 61, ../sass/header.scss */
+body > header nav > ul li:hover figure {
+  border-bottom: 1px dotted black;
+}
+/* line 63, ../sass/header.scss */
+body > header nav > ul li:hover figure .normal {
+  display: none;
+}
+/* line 66, ../sass/header.scss */
+body > header nav > ul li:hover figure .active {
+  display: block;
+}
 
-/* line 5, ../sass/footer.scss */
+/* line 4, ../sass/footer.scss */
+footer {
+  font-family: 'Ruluko';
+  color: #707070;
+}
+/* line 10, ../sass/fonts.scss */
+footer a, footer a:link a:active, footer a:visited, footer a:hover {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+/* line 6, ../sass/footer.scss */
 footer img#footerLine {
   position: relative;
   top: 0px;
 }
-/* line 10, ../sass/footer.scss */
-footer div {
-  font-family: 'Ruluko';
-  color: #707070;
-}
-/* line 13, ../sass/footer.scss */
+/* line 12, ../sass/footer.scss */
 footer div > span {
   display: inline-block;
 }
-/* line 17, ../sass/footer.scss */
+/* line 16, ../sass/footer.scss */
 footer nav {
   float: right;
 }
-/* line 19, ../sass/footer.scss */
+/* line 18, ../sass/footer.scss */
 footer nav ul {
   display: inline-block;
 }
-/* line 24, ../sass/footer.scss */
+/* line 23, ../sass/footer.scss */
 footer nav li {
   display: inline-block;
 }
-/* line 27, ../sass/footer.scss */
-footer nav a {
-@inlude footer-font();
+
+/* line 1, ../sass/project.scss */
+header {
+  margin-bottom: 25px;
+}
+/* line 2, ../sass/project.scss */
+header .short {
+  font-size: 11pt;
+  margin-bottom: 5px;
+}
+
+/* line 8, ../sass/project.scss */
+#images {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+/* line 12, ../sass/project.scss */
+#images img {
+  position: absolute;
 }

@@ -1,32 +1,27 @@
 @import "color";
 @import "fonts";
 
-footer{
-	img#footerLine{
+footer {
+    @include footer-font();
+	img#footerLine {
     	position: relative;
     	top:0px;
     }
 
-    div{
-    	@include Ruluko();
-    	@include grey();
-    	> span{
+    div {
+    	> span {
     		display: inline-block;
     	}
     }
-    nav{
+    nav {
     	float: right;
-        ul{
+        ul {
 
         	display: inline-block;
         }
 
-        li{
+        li {
         	display: inline-block;
         }
-        a{
-        	@include footer-font-link();
-        }
-
     }
 }

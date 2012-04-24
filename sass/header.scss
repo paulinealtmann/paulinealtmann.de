@@ -1,25 +1,25 @@
 @import "compass/utilities/general/clearfix";
-@import "compass/css3/transition";
+@import "fonts";
+@import "rollout";
 
-$logo-offset-x: 75px;
-$navi-button-distance-left:32px;
+$logo-offset-x: 5px;
+$navi-button-distance-left:45px;
+
+$header-content-margin: 25px;
+
+$rollout-item-margin: 10px;
+
 $rollout-animation-duration: 1s;
 $rollout-animation: linear;
 
 body > header {
 	@include pie-clearfix();
-	max-height: 85px;
+	margin-bottom: $header-content-margin;
 
 	#logo {
-		/*position: relative;
-		display:inline-block;
-		margin-top: 20px;
-		margin-right: 0px;
-		*/
-		position: relative;
-		float:left;
+		position: absolute;
 		margin-top:20px;
- 		left: $logo-offset-x*-1;
+ 		left: $logo-offset-x;
 	}
 
 	nav {
@@ -29,34 +29,43 @@ body > header {
 
 		> ul {
 			display: inline-block;
-			float: left;
 			padding-top: 50px;
 			> li {
-				vertical-align: top;
-				overflow: hidden;
 				position: relative;
+				margin-left: $navi-button-distance-left;
+				vertical-align: top;
 				display: inline-block;
-				margin-right: $navi-button-distance-left;
-				.normal {
-					display: block;
-				}
-				.active {
-					display: none;
+				background-color: white;
+				@include rollout($rollout-animation-duration, $rollout-animation, ul);
+				figure {
+					margin-bottom: 5px;
+					.normal {
+						display: block;
+					}
+					.active {
+						display: none;
+					}
 				}
 				ul {
-					@include single-transition("max-height", $rollout-animation-duration, $rollout-animation);
-					max-height: 0;
+					position: absolute;
+					overflow: hidden;
+					background-color: white;
+					width: 200px;
+					li {
+						@include rollout-font;
+						margin: $rollout-item-margin;
+					}
 				}
 			}
 			li:hover {
-				.normal {
-					display: none;
-				}
-				.active {
-					display: block;
-				}
-				ul {
-					max-height: 400px !important;
+				figure {
+					border-bottom: 1px dotted black;
+					.normal {
+						display: none;
+					}
+					.active {
+						display: block;
+					}
 				}
 			}
 		}

@@ -1,0 +1,33 @@
+/* line 4, ../sass/footer.scss */
+footer {
+  font-family: 'Ruluko';
+  color: #707070;
+}
+/* line 10, ../sass/fonts.scss */
+footer a, footer a:link a:active, footer a:visited, footer a:hover {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+/* line 6, ../sass/footer.scss */
+footer img#footerLine {
+  position: relative;
+  top: 0px;
+}
+/* line 12, ../sass/footer.scss */
+footer div > span {
+  display: inline-block;
+}
+/* line 16, ../sass/footer.scss */
+footer nav {
+  float: right;
+}
+/* line 18, ../sass/footer.scss */
+footer nav ul {
+  display: inline-block;
+}
+/* line 23, ../sass/footer.scss */
+footer nav li {
+  display: inline-block;
+}

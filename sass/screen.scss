@@ -6,13 +6,21 @@ html, body {
 	height: 100%;
 }
 
+* {
+	@include box-sizing(border-box);
+}
+
 body {
 	position: relative;
 	width: 980px;
 	margin: 0 auto;
 	padding-left: 80px;
-	@include box-sizing(border-box);
+}
+
+#content {
+	@include normal-font();
 }
 
 @import "header";
 @import "footer";
+@import "project";
