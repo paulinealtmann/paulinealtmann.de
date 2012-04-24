@@ -1,33 +1,45 @@
-/* line 4, ../sass/footer.scss */
+/* line 6, ../sass/footer.scss */
 footer {
   font-family: 'Ruluko';
   color: #707070;
+  font-size: 8pt;
+  text-decoration: none;
+  font-weight: normal;
+  width: 100%;
 }
-/* line 10, ../sass/fonts.scss */
+/* line 13, /home/surma/dev/paulinealtmann.de/sass/fonts.scss */
 footer a, footer a:link a:active, footer a:visited, footer a:hover {
   color: inherit;
   font-size: inherit;
   text-decoration: inherit;
   font-weight: inherit;
 }
-/* line 6, ../sass/footer.scss */
-footer img#footerLine {
+/* line 10, ../sass/footer.scss */
+footer #footerbar {
+  display: block;
   position: relative;
   top: 0px;
+  width: 100%;
+  border-top: 1px dotted black;
+  margin-bottom: 5px;
 }
-/* line 12, ../sass/footer.scss */
+/* line 19, ../sass/footer.scss */
+footer div {
+  width: 100%;
+}
+/* line 21, ../sass/footer.scss */
 footer div > span {
   display: inline-block;
 }
-/* line 16, ../sass/footer.scss */
+/* line 26, ../sass/footer.scss */
 footer nav {
   float: right;
 }
-/* line 18, ../sass/footer.scss */
+/* line 28, ../sass/footer.scss */
 footer nav ul {
   display: inline-block;
 }
-/* line 23, ../sass/footer.scss */
+/* line 32, ../sass/footer.scss */
 footer nav li {
   display: inline-block;
 }

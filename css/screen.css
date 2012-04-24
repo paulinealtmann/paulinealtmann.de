@@ -63,19 +63,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 5, ../sass/screen.scss */
-html, body {
-  height: 100%;
-}
-
-/* line 9, ../sass/screen.scss */
+/* line 7, ../sass/screen.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 13, ../sass/screen.scss */
+/* line 11, ../sass/screen.scss */
 body {
   position: relative;
   width: 980px;
@@ -83,22 +78,24 @@ body {
   padding-left: 80px;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 #content {
   font-family: 'Ruluko';
   color: #707070;
   font-size: 10pt;
   text-decoration: none;
   font-weight: normal;
+  width: 100%;
+  height: 500px;
 }
-/* line 42, ../sass/fonts.scss */
+/* line 45, ../sass/fonts.scss */
 #content a, #content a:link a:active, #content a:visited, #content a:hover {
   color: inherit;
   font-size: inherit;
   text-decoration: inherit;
   font-weight: inherit;
 }
-/* line 48, ../sass/fonts.scss */
+/* line 51, ../sass/fonts.scss */
 #content a:hover, #content a.activer {
   color: #84acb0;
 }
@@ -180,14 +177,14 @@ body > header nav > ul > li ul li {
   font-weight: normal;
   margin: 10px;
 }
-/* line 25, ../sass/fonts.scss */
+/* line 28, ../sass/fonts.scss */
 body > header nav > ul > li ul li a, body > header nav > ul > li ul li a:link a:active, body > header nav > ul > li ul li a:visited, body > header nav > ul > li ul li a:hover {
   color: inherit;
   font-size: inherit;
   text-decoration: inherit;
   font-weight: inherit;
 }
-/* line 31, ../sass/fonts.scss */
+/* line 34, ../sass/fonts.scss */
 body > header nav > ul > li ul li a:hover, body > header nav > ul > li ul li a.activer {
   color: #84acb0;
 }
@@ -204,36 +201,48 @@ body > header nav > ul li:hover figure .active {
   display: block;
 }
 
-/* line 4, ../sass/footer.scss */
+/* line 6, ../sass/footer.scss */
 footer {
   font-family: 'Ruluko';
   color: #707070;
+  font-size: 8pt;
+  text-decoration: none;
+  font-weight: normal;
+  width: 100%;
 }
-/* line 10, ../sass/fonts.scss */
+/* line 13, ../sass/fonts.scss */
 footer a, footer a:link a:active, footer a:visited, footer a:hover {
   color: inherit;
   font-size: inherit;
   text-decoration: inherit;
   font-weight: inherit;
 }
-/* line 6, ../sass/footer.scss */
-footer img#footerLine {
+/* line 10, ../sass/footer.scss */
+footer #footerbar {
+  display: block;
   position: relative;
   top: 0px;
+  width: 100%;
+  border-top: 1px dotted black;
+  margin-bottom: 5px;
 }
-/* line 12, ../sass/footer.scss */
+/* line 19, ../sass/footer.scss */
+footer div {
+  width: 100%;
+}
+/* line 21, ../sass/footer.scss */
 footer div > span {
   display: inline-block;
 }
-/* line 16, ../sass/footer.scss */
+/* line 26, ../sass/footer.scss */
 footer nav {
   float: right;
 }
-/* line 18, ../sass/footer.scss */
+/* line 28, ../sass/footer.scss */
 footer nav ul {
   display: inline-block;
 }
-/* line 23, ../sass/footer.scss */
+/* line 32, ../sass/footer.scss */
 footer nav li {
   display: inline-block;
 }
