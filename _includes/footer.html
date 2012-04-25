@@ -1,3 +1,26 @@
 <footer>
-	Footer
+	<div id="footerbar"></div>
+	<div>
+		<span>
+			{% capture replaced_date %} {{site.time | date: "%Y"}}  {% endcapture %}
+
+			{% for post in site.posts %}
+				{% if post.category contains "copyright" %}
+					{{post.content | replace:"(date)", replaced_date }}
+				{% endif %}
+			{% endfor %}
+		</span>
+		<nav>
+			<ul>
+				{% for post in site.posts %}
+					{% if post.category contains "footer_nav" %}
+						<li><a href="{{url}}{{post.url}}">{{post.title}}</a></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+
+		</nav>
+
+	</div>
+
 </footer>

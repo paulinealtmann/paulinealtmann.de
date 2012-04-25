@@ -4,7 +4,7 @@
 @mixin rollout($duration, $animation, $elem) {
 	#{$elem} {
 		max-height: 0;
-		@include single-transition("max-height", $duration, $animation);
+		@include single-transition(max-height, $duration, $animation);
 	}
 	&:hover {
 		#{$elem} {
