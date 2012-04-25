@@ -49,24 +49,25 @@ body > header nav > ul > li:hover ul {
 }
 /* line 40, ../sass/header.scss */
 body > header nav > ul > li figure {
+  border: 1px solid white;
   margin-bottom: 5px;
 }
-/* line 42, ../sass/header.scss */
+/* line 43, ../sass/header.scss */
 body > header nav > ul > li figure .normal {
   display: block;
 }
-/* line 45, ../sass/header.scss */
+/* line 46, ../sass/header.scss */
 body > header nav > ul > li figure .active {
   display: none;
 }
-/* line 49, ../sass/header.scss */
+/* line 50, ../sass/header.scss */
 body > header nav > ul > li ul {
   position: absolute;
   overflow: hidden;
   background-color: white;
   width: 200px;
 }
-/* line 54, ../sass/header.scss */
+/* line 55, ../sass/header.scss */
 body > header nav > ul > li ul li {
   font-family: 'Ruluko';
   color: #707070;
@@ -86,15 +87,15 @@ body > header nav > ul > li ul li a, body > header nav > ul > li ul li a:link a:
 body > header nav > ul > li ul li a:hover, body > header nav > ul > li ul li a.activer {
   color: #84acb0;
 }
-/* line 61, ../sass/header.scss */
+/* line 62, ../sass/header.scss */
 body > header nav > ul li:hover figure {
   border-bottom: 1px dotted black;
 }
-/* line 63, ../sass/header.scss */
+/* line 64, ../sass/header.scss */
 body > header nav > ul li:hover figure .normal {
   display: none;
 }
-/* line 66, ../sass/header.scss */
+/* line 67, ../sass/header.scss */
 body > header nav > ul li:hover figure .active {
   display: block;
 }
