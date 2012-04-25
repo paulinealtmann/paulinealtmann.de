@@ -259,12 +259,17 @@ header .short {
 }
 
 /* line 8, ../sass/project.scss */
-#images {
+.images {
+  display: none;
   position: relative;
   width: 100%;
   height: 100%;
 }
-/* line 12, ../sass/project.scss */
-#images img {
+/* line 13, ../sass/project.scss */
+.images img {
   position: absolute;
+}
+/* line 16, ../sass/project.scss */
+.images:target {
+  display: block;
 }
