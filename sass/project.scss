@@ -1,4 +1,28 @@
-header {
+@import "compass/css3/opacity";
+@import "color";
+
+$thumbgroup-spacing: 3px;
+// 1 = no tinting, 0 = no image left
+$tinting: 0.6;
+$dotbar-spacing: 10px;
+
+nav#thumbbar {
+	width: 100%;
+	text-align: center;
+	padding-bottom: $dotbar-spacing;
+	margin-bottom: $dotbar-spacing;
+	border-bottom: 1px dotted black;
+	.project {
+		display: inline-block;
+		margin: 0 $thumbgroup-spacing;
+		background-color: $turquoise;
+		height: 12px; // Dirty fix!
+		img.active {
+			@include opacity($tinting);
+		}
+	}
+}
+> header {
 	.short {
 		font-size: 11pt;
 		margin-bottom: 5px;
