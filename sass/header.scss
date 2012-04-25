@@ -5,7 +5,7 @@
 $logo-offset-x: 5px;
 $navi-button-distance-left:45px;
 
-$header-content-margin: 25px;
+$header-content-margin: 10px;
 
 $rollout-item-margin: 10px;
 
@@ -18,7 +18,7 @@ body > header {
 
 	#logo {
 		position: absolute;
-		margin-top:20px;
+		margin-top: 20px;
  		left: $logo-offset-x;
 	}
 
@@ -29,7 +29,7 @@ body > header {
 
 		> ul {
 			display: inline-block;
-			padding-top: 50px;
+			padding-top: 46px;
 			> li {
 				position: relative;
 				margin-left: $navi-button-distance-left;

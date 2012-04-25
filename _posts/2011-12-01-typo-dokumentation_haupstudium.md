@@ -10,23 +10,23 @@ pages:
       - name: doku_hs_01_01.png
         position:
           x: 0
-          y: 0
+          y: 10
       - name: doku_hs_01_02.png
         position:
-          x: 0
-          y: 0
+          x: 376
+          y: 15
       - name: doku_hs_01_03.png
         position:
-          x: 0
-          y: 0
+          x: 599
+          y: 15
       - name: doku_hs_01_04.png
         position:
-          x: 0
-          y: 0
+          x: 423
+          y: 233
       - name: doku_hs_01_05.png
         position:
-          x: 0
-          y: 0
+          x: 641
+          y: 233
   - thumb: doku_hs_02.jpg
     images:
       - name: doku_hs_02_01.png
