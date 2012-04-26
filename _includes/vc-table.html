@@ -1,0 +1,8 @@
+<table>
+{% for item in page.cv %}
+	<tr>
+		<td>{{item.date}}</td>
+		<td>{{item.details | markdown}}</td>
+	</tr>
+{% endfor %}
+</table>
