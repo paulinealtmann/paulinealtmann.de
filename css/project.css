@@ -1,0 +1,64 @@
+/* line 9, ../sass/project.scss */
+nav#thumbbar {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted black;
+}
+/* line 15, ../sass/project.scss */
+nav#thumbbar .project {
+  display: inline-block;
+  margin: 0 3px;
+  background-color: #84acb0;
+  height: 12px;
+}
+/* line 20, ../sass/project.scss */
+nav#thumbbar .project img.active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+
+/* line 26, ../sass/project.scss */
+> header {
+  margin-bottom: 25px;
+}
+/* line 27, ../sass/project.scss */
+> header .short {
+  font-size: 11pt;
+  margin-bottom: 5px;
+}
+
+/* line 34, ../sass/project.scss */
+.images {
+  display: none;
+  position: relative;
+  width: 100%;
+}
+/* line 38, ../sass/project.scss */
+.images img {
+  position: absolute;
+}
+/* line 41, ../sass/project.scss */
+.images:target {
+  display: block;
+}
+
+/* line 47, ../sass/project.scss */
+#prev, #next {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  top: 330px;
+}
+
+/* line 55, ../sass/project.scss */
+#prev {
+  left: 35px;
+}
+
+/* line 59, ../sass/project.scss */
+#next {
+  right: -40px;
+}

@@ -1,0 +1,36 @@
+@import "color";
+@import "fonts";
+
+$footerbar-margin: 5px;
+
+footer {
+    @include footer-font();
+    width: 100%;
+
+	#footerbar {
+        display: block;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        border-top: 1px dotted black;
+        margin-bottom: $footerbar-margin;
+    }
+
+    div {
+        width: 100%;
+    	> span {
+    		display: inline-block;
+    	}
+    }
+
+    nav {
+    	float: right;
+        ul {
+
+        	display: inline-block;
+        }
+        li {
+        	display: inline-block;
+        }
+    }
+}

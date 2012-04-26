@@ -1,0 +1,74 @@
+@import "compass/utilities/general/clearfix";
+@import "fonts";
+@import "rollout";
+
+$logo-offset-x: 5px;
+$navi-button-distance-left:45px;
+
+$header-content-margin: 10px;
+
+$rollout-item-margin: 10px;
+
+$rollout-animation-duration: 1s;
+$rollout-animation: linear;
+
+body > header {
+	@include pie-clearfix();
+	margin-bottom: $header-content-margin;
+
+	#logo {
+		position: absolute;
+		margin-top: 20px;
+ 		left: $logo-offset-x;
+	}
+
+	nav {
+		position: relative;
+		display: inline-block;
+		float: right;
+
+		> ul {
+			display: inline-block;
+			padding-top: 46px;
+			> li {
+				position: relative;
+				margin-left: $navi-button-distance-left;
+				vertical-align: top;
+				display: inline-block;
+				background-color: white;
+				@include rollout($rollout-animation-duration, $rollout-animation, ul);
+				figure {
+					border: 1px solid white;
+					margin-bottom: 5px;
+					.normal {
+						display: block;
+					}
+					.active {
+						display: none;
+					}
+				}
+				ul {
+					position: absolute;
+					overflow: hidden;
+					background-color: white;
+					width: 200px;
+					li {
+						@include rollout-font;
+						margin: $rollout-item-margin;
+					}
+				}
+			}
+			li:hover {
+				figure {
+					border-bottom: 1px dotted black;
+					.normal {
+						display: none;
+					}
+					.active {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}

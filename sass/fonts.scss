@@ -1,0 +1,55 @@
+@import "color" ;
+
+@mixin ruluko {
+	font-family: 'Ruluko';
+}
+
+@mixin footer-font{
+	@include ruluko();
+	color: $grey;
+	font-size: 8pt;
+	text-decoration: none;
+	font-weight: normal;
+	a, a:link a:active, a:visited, a:hover {
+		color: inherit;
+		font-size: inherit;
+		text-decoration: inherit;
+		font-weight: inherit;
+	}
+}
+
+
+@mixin rollout-font {
+	@include ruluko;
+	color: $grey;
+	font-size: 10pt;
+	text-decoration: none;
+	font-weight: normal;
+	a, a:link a:active, a:visited, a:hover {
+		color: inherit;
+		font-size: inherit;
+		text-decoration: inherit;
+		font-weight: inherit;
+	}
+	a:hover, a.activer {
+		color: $turquoise;
+	}
+}
+
+@mixin normal-font {
+	@include ruluko;
+	color: $grey;
+	font-size: 10pt;
+	text-decoration: none;
+	font-weight: normal;
+	a, a:link a:active, a:visited, a:hover {
+		color: inherit;
+		font-size: inherit;
+		text-decoration: inherit;
+		font-weight: inherit;
+	}
+	a:hover, a.activer {
+		color: $turquoise;
+	}
+}
+

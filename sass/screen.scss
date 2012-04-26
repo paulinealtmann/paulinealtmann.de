@@ -1,0 +1,27 @@
+@import "compass/reset";
+@import "compass/css3/box-sizing";
+@import "fonts";
+
+$content-height: 560px;
+
+* {
+	@include box-sizing(border-box);
+}
+
+body {
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+	padding-left: 80px;
+	padding-right: 5px;
+}
+
+#content {
+	@include normal-font();
+	width: 100%;
+	height: $content-height;
+}
+
+@import "header";
+@import "footer";
+@import "project";

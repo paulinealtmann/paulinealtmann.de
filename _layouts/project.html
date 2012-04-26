@@ -1,0 +1,39 @@
+---
+layout: mainframe
+---
+<nav id="thumbbar">
+	{% for post in site.posts %}
+		{% if post.category == page.category %}
+			<div class="project"><!--
+				{% comment %}
+					Beware! Those are HTML comments and are ignored by Jekyll and Liquid, so this template code will still be executed. The comments are necessary to make sure there are no space characters between the individual imgs. If there is one, they will be spaced visually, which is undesired.
+				{% endcomment %}
+				{% for projectpage in post.pages %}
+					{% comment %} Are we processing the current page's images? {% endcomment %}
+					--><a href="{{url}}{{post.url}}#page{{forloop.index}}"><!--
+
+					{% if post.title == page.title %}
+						--><img class="page{{forloop.index}}" src="{{url}}/imgs/{{page.category}}/thumbs//{{projectpage.thumb}}" /><!--
+					{% else %}
+						--><img src="{{url}}/imgs/{{page.category}}/thumbs//{{projectpage.thumb}}" /><!--
+					{% endif %}
+
+					--></a><!--
+				{% endfor %}
+			--></div>
+		{% endif %}
+	{% endfor %}
+</nav>
+<header>
+	<p class="short">{{page.title}} · {{page.type}} · {{page.additional}}</p>
+	<p class="desc">{{content}}</p>
+</header>
+<div id="prev"></div>
+<div id="next"></div>
+{% for projectpage in page.pages %}
+	<div id="page{{forloop.index}}" class="images">
+		{% for img in projectpage.images %}
+			<img src="{{url}}/imgs/{{page.category}}/{{img.name}}" style="left: {{img.position.x}}px; top:{{img.position.y}}px" />
+		{% endfor %}
+	</div>
+{% endfor %}

@@ -1,0 +1,323 @@
+/* line 17, /Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, /Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, /Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, /Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, /Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, /Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, /Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, /Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, /Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../sass/screen.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 11, ../sass/screen.scss */
+body {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  padding-left: 80px;
+  padding-right: 5px;
+}
+
+/* line 19, ../sass/screen.scss */
+#content {
+  font-family: 'Ruluko';
+  color: #707070;
+  font-size: 10pt;
+  text-decoration: none;
+  font-weight: normal;
+  width: 100%;
+  height: 560px;
+}
+/* line 45, /Volumes/Sensitive/dev/paulinealtmann.de/sass/fonts.scss */
+#content a, #content a:link a:active, #content a:visited, #content a:hover {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+/* line 51, /Volumes/Sensitive/dev/paulinealtmann.de/sass/fonts.scss */
+#content a:hover, #content a.activer {
+  color: #84acb0;
+}
+
+/* line 15, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header {
+  *zoom: 1;
+  margin-bottom: 10px;
+}
+/* line 38, /Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+body > header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 19, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header #logo {
+  position: absolute;
+  margin-top: 20px;
+  left: 5px;
+}
+/* line 25, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header nav {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+/* line 30, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header nav > ul {
+  display: inline-block;
+  padding-top: 46px;
+}
+/* line 33, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header nav > ul > li {
+  position: relative;
+  margin-left: 45px;
+  vertical-align: top;
+  display: inline-block;
+  background-color: white;
+}
+/* line 5, /Volumes/Sensitive/dev/paulinealtmann.de/sass/rollout.scss */
+body > header nav > ul > li ul {
+  max-height: 0;
+  -moz-transition-property: max-height;
+  -webkit-transition-property: max-height;
+  -o-transition-property: max-height;
+  transition-property: max-height;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -moz-transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+/* line 10, /Volumes/Sensitive/dev/paulinealtmann.de/sass/rollout.scss */
+body > header nav > ul > li:hover ul {
+  max-height: 400px !important;
+}
+/* line 40, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header nav > ul > li figure {
+  border: 1px solid white;
+  margin-bottom: 5px;
+}
+/* line 43, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header nav > ul > li figure .normal {
+  display: block;
+}
+/* line 46, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header nav > ul > li figure .active {
+  display: none;
+}
+/* line 50, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header nav > ul > li ul {
+  position: absolute;
+  overflow: hidden;
+  background-color: white;
+  width: 200px;
+}
+/* line 55, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header nav > ul > li ul li {
+  font-family: 'Ruluko';
+  color: #707070;
+  font-size: 10pt;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 10px;
+}
+/* line 28, /Volumes/Sensitive/dev/paulinealtmann.de/sass/fonts.scss */
+body > header nav > ul > li ul li a, body > header nav > ul > li ul li a:link a:active, body > header nav > ul > li ul li a:visited, body > header nav > ul > li ul li a:hover {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+/* line 34, /Volumes/Sensitive/dev/paulinealtmann.de/sass/fonts.scss */
+body > header nav > ul > li ul li a:hover, body > header nav > ul > li ul li a.activer {
+  color: #84acb0;
+}
+/* line 62, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header nav > ul li:hover figure {
+  border-bottom: 1px dotted black;
+}
+/* line 64, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header nav > ul li:hover figure .normal {
+  display: none;
+}
+/* line 67, /Volumes/Sensitive/dev/paulinealtmann.de/sass/header.scss */
+body > header nav > ul li:hover figure .active {
+  display: block;
+}
+
+/* line 6, /Volumes/Sensitive/dev/paulinealtmann.de/sass/footer.scss */
+footer {
+  font-family: 'Ruluko';
+  color: #707070;
+  font-size: 8pt;
+  text-decoration: none;
+  font-weight: normal;
+  width: 100%;
+}
+/* line 13, /Volumes/Sensitive/dev/paulinealtmann.de/sass/fonts.scss */
+footer a, footer a:link a:active, footer a:visited, footer a:hover {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+/* line 10, /Volumes/Sensitive/dev/paulinealtmann.de/sass/footer.scss */
+footer #footerbar {
+  display: block;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  border-top: 1px dotted black;
+  margin-bottom: 5px;
+}
+/* line 19, /Volumes/Sensitive/dev/paulinealtmann.de/sass/footer.scss */
+footer div {
+  width: 100%;
+}
+/* line 21, /Volumes/Sensitive/dev/paulinealtmann.de/sass/footer.scss */
+footer div > span {
+  display: inline-block;
+}
+/* line 26, /Volumes/Sensitive/dev/paulinealtmann.de/sass/footer.scss */
+footer nav {
+  float: right;
+}
+/* line 28, /Volumes/Sensitive/dev/paulinealtmann.de/sass/footer.scss */
+footer nav ul {
+  display: inline-block;
+}
+/* line 32, /Volumes/Sensitive/dev/paulinealtmann.de/sass/footer.scss */
+footer nav li {
+  display: inline-block;
+}
+
+/* line 9, /Volumes/Sensitive/dev/paulinealtmann.de/sass/project.scss */
+nav#thumbbar {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted black;
+}
+/* line 15, /Volumes/Sensitive/dev/paulinealtmann.de/sass/project.scss */
+nav#thumbbar .project {
+  display: inline-block;
+  margin: 0 3px;
+  background-color: #84acb0;
+  height: 12px;
+}
+/* line 20, /Volumes/Sensitive/dev/paulinealtmann.de/sass/project.scss */
+nav#thumbbar .project img.active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+
+/* line 26, /Volumes/Sensitive/dev/paulinealtmann.de/sass/project.scss */
+> header {
+  margin-bottom: 25px;
+}
+/* line 27, /Volumes/Sensitive/dev/paulinealtmann.de/sass/project.scss */
+> header .short {
+  font-size: 11pt;
+  margin-bottom: 5px;
+}
+
+/* line 34, /Volumes/Sensitive/dev/paulinealtmann.de/sass/project.scss */
+.images {
+  display: none;
+  position: relative;
+  width: 100%;
+}
+/* line 38, /Volumes/Sensitive/dev/paulinealtmann.de/sass/project.scss */
+.images img {
+  position: absolute;
+}
+/* line 41, /Volumes/Sensitive/dev/paulinealtmann.de/sass/project.scss */
+.images:target {
+  display: block;
+}
+
+/* line 47, /Volumes/Sensitive/dev/paulinealtmann.de/sass/project.scss */
+#prev, #next {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  top: 330px;
+}
+
+/* line 55, /Volumes/Sensitive/dev/paulinealtmann.de/sass/project.scss */
+#prev {
+  left: 35px;
+}
+
+/* line 59, /Volumes/Sensitive/dev/paulinealtmann.de/sass/project.scss */
+#next {
+  right: -40px;
+}
