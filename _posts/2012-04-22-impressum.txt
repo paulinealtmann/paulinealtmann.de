@@ -1,6 +1,0 @@
----
-title: "Impressum"
-category: footer_nav
----
-
-Dies ist ein total Tolles Impressum

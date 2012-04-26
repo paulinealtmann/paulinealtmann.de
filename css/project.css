@@ -30,21 +30,26 @@ nav#thumbbar .project img.active {
 }
 
 /* line 34, ../sass/project.scss */
+#frontpage {
+  display: block !important;
+}
+
+/* line 38, ../sass/project.scss */
 .images {
   display: none;
   position: relative;
   width: 100%;
 }
-/* line 38, ../sass/project.scss */
+/* line 42, ../sass/project.scss */
 .images img {
   position: absolute;
 }
-/* line 41, ../sass/project.scss */
+/* line 45, ../sass/project.scss */
 .images:target {
   display: block;
 }
 
-/* line 47, ../sass/project.scss */
+/* line 51, ../sass/project.scss */
 #prev, #next {
   position: absolute;
   width: 40px;
@@ -53,12 +58,12 @@ nav#thumbbar .project img.active {
   top: 330px;
 }
 
-/* line 55, ../sass/project.scss */
+/* line 59, ../sass/project.scss */
 #prev {
   left: 35px;
 }
 
-/* line 59, ../sass/project.scss */
+/* line 63, ../sass/project.scss */
 #next {
   right: -40px;
 }

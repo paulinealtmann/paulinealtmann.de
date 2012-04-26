@@ -5,7 +5,7 @@ category: ueb
 cv:
   - date: 10/08 - 03/09
     details: >
-      Praktikum bei Lichrausch GmbH
+      Praktikum bei Lichtrausch GmbH
       im Bereich Grafik und Motion Design
       [lichtrausch.com](http://www.lichtrausch.com)
   - date: seit 09/05
@@ -24,7 +24,7 @@ Kontakt <mailto:mail (at) paulinealtmann.de>
 
 *****
 
-{% include vc-table.html %}
+{% include cv-table.html %}
 
 *****
 

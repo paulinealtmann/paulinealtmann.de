@@ -1,0 +1,42 @@
+@import "compass/utilities/general/clearfix";
+@import "color";
+@import "fonts";
+
+$separator-spacing: 10px;
+$table-cell-spacing-horizontal: 2px;
+$table-cell-spacing-vertical: 5px;
+
+#content {
+	// Avoids collapsing of margins
+	@include clearfix();
+}
+
+#textcontent {
+	margin-left: 260px;
+	margin-top: 40px;
+	width: 400px;
+	height: auto;
+	@include footer-font();
+	h1 {
+		margin-top: $separator-spacing;
+		color: $turquoise;
+	}
+	hr {
+		border-top: 1px dotted black;
+		margin: $separator-spacing 0;
+	}
+	a, a:link, a:hover, a:active, a:visited {
+		color: $turquoise !important;
+	}
+	table#cv {
+		td {
+			padding: $table-cell-spacing-vertical $table-cell-spacing-horizontal;
+			&:first-child {
+				width: 100px;
+				text-align: right;
+				vertical-align: top;
+
+			}
+		}
+	}
+}
