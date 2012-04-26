@@ -28,6 +28,8 @@ layout: mainframe
 	<p class="short">{{page.title}} · {{page.type}} · {{page.additional}}</p>
 	<p class="desc">{{content}}</p>
 </header>
+<div id="prev"></div>
+<div id="next"></div>
 {% for projectpage in page.pages %}
 	<div id="page{{forloop.index}}" class="images">
 		{% for img in projectpage.images %}

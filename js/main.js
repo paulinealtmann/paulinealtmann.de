@@ -5,3 +5,4 @@ require.config({
 });
 
 require(['/js/thumbactivator.js'], function() {});
+require(['/js/navbuttons.js'], function() {});
