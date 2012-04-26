@@ -41,7 +41,7 @@ layout: mainframe
 {% else %}
 	<div id="frontpage" class="images">
 		{% for img in page.images %}
-			<img src="{{url}}/imgs/{{page.category}}/{{img.name}}" style="left: {{img.position.x}}px; top:{{img.position.y}}px" />
+			<a href="{{url}}/{{img.link}}"><img src="{{url}}/imgs/{{page.category}}/{{img.name}}" style="left: {{img.position.x}}px; top:{{img.position.y}}px" /></a>
 		{% endfor %}
 	</div>
 {% endunless %}
