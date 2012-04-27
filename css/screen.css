@@ -89,7 +89,7 @@ body {
   font-weight: normal;
   line-height: 1.5em;
   width: 100%;
-  height: 560px;
+  height: 570px;
 }
 /* line 47, ../sass/fonts.scss */
 #content a, #content a:link a:active, #content a:visited, #content a:hover {
@@ -272,45 +272,46 @@ nav#thumbbar .project {
   display: inline-block;
   margin: 0 3px;
   background-color: #84acb0;
+  line-height: 1em;
   height: 12px;
 }
-/* line 20, ../sass/project.scss */
+/* line 21, ../sass/project.scss */
 nav#thumbbar .project img.active {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
 }
 
-/* line 26, ../sass/project.scss */
+/* line 27, ../sass/project.scss */
 > header {
   margin-bottom: 25px;
 }
-/* line 27, ../sass/project.scss */
+/* line 28, ../sass/project.scss */
 > header .short {
   font-size: 11pt;
   margin-bottom: 5px;
 }
 
-/* line 34, ../sass/project.scss */
+/* line 35, ../sass/project.scss */
 #frontpage {
   display: block !important;
 }
 
-/* line 38, ../sass/project.scss */
+/* line 39, ../sass/project.scss */
 .images {
   display: none;
   position: relative;
   width: 100%;
 }
-/* line 42, ../sass/project.scss */
+/* line 43, ../sass/project.scss */
 .images img {
   position: absolute;
 }
-/* line 45, ../sass/project.scss */
+/* line 46, ../sass/project.scss */
 .images:target {
   display: block;
 }
 
-/* line 51, ../sass/project.scss */
+/* line 52, ../sass/project.scss */
 #prev, #next {
   position: absolute;
   width: 40px;
@@ -319,12 +320,12 @@ nav#thumbbar .project img.active {
   top: 330px;
 }
 
-/* line 59, ../sass/project.scss */
+/* line 60, ../sass/project.scss */
 #prev {
   left: 35px;
 }
 
-/* line 63, ../sass/project.scss */
+/* line 64, ../sass/project.scss */
 #next {
   right: -40px;
 }

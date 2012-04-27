@@ -16,6 +16,7 @@ nav#thumbbar {
 		display: inline-block;
 		margin: 0 $thumbgroup-spacing;
 		background-color: $turquoise;
+		line-height: 1em;
 		height: 12px; // Dirty fix!
 		img.active {
 			@include opacity($tinting);
