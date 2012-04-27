@@ -18,8 +18,10 @@ nav#thumbbar {
 		background-color: $turquoise;
 		line-height: 1em;
 		height: 12px; // Dirty fix!
-		img.active {
-			@include opacity($tinting);
+		a.active {
+			img {
+				@include opacity($tinting);
+			}
 		}
 	}
 }

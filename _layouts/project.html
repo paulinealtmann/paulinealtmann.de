@@ -9,16 +9,12 @@ layout: mainframe
 					Beware! Those are HTML comments and are ignored by Jekyll and Liquid, so this template code will still be executed. The comments are necessary to make sure there are no space characters between the individual imgs. If there is one, they will be spaced visually, which is undesired.
 				{% endcomment %}
 				{% for projectpage in post.pages %}
-					{% comment %} Are we processing the current page's images? {% endcomment %}
-					--><a href="{{url}}{{post.url}}#page{{forloop.index}}"><!--
-
+					{% comment %} Are we processing the current project's images? {% endcomment %}
 					{% if post.title == page.title %}
-						--><img class="page{{forloop.index}}" src="{{url}}/imgs/{{page.category}}/thumbs//{{projectpage.thumb}}" /><!--
+						--><a href="{{url}}{{post.url}}#page{{forloop.index}}" class="page{{forloop.index}}"><img src="{{url}}/imgs/{{page.category}}/thumbs//{{projectpage.thumb}}" /></a><!--
 					{% else %}
-						--><img src="{{url}}/imgs/{{page.category}}/thumbs//{{projectpage.thumb}}" /><!--
+						--><a href="{{url}}{{post.url}}#page{{forloop.index}}"><img src="{{url}}/imgs/{{page.category}}/thumbs//{{projectpage.thumb}}" /></a><!--
 					{% endif %}
-
-					--></a><!--
 				{% endfor %}
 			--></div>
 		{% endif %}
