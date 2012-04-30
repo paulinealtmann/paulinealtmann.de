@@ -1,0 +1,10 @@
+<table id="cv">
+{% for item in page.cv %}
+	<tr>
+		<td>{{item.date}}</td>
+		<td>
+			{{item.details | markdownify | replace: "<a","<br><a" }}
+		</td>
+	</tr>
+{% endfor %}
+</table>

@@ -2,7 +2,7 @@
 @import "compass/css3/box-sizing";
 @import "fonts";
 
-$content-height: 560px;
+$content-height: 570px;
 
 * {
 	@include box-sizing(border-box);
@@ -25,3 +25,4 @@ body {
 @import "header";
 @import "footer";
 @import "project";
+@import "textcontent";
