@@ -30,19 +30,18 @@
   color: #84acb0;
 }
 /* line 24, ../sass/textcontent.scss */
-#textcontent hr {
-  border-top: 1px dotted black;
-  margin: 10px 0;
-}
-/* line 28, ../sass/textcontent.scss */
 #textcontent a, #textcontent a:link, #textcontent a:hover, #textcontent a:active, #textcontent a:visited {
   color: #84acb0 !important;
 }
-/* line 32, ../sass/textcontent.scss */
+/* line 27, ../sass/textcontent.scss */
+#textcontent hr {
+  margin: 10px 0;
+}
+/* line 31, ../sass/textcontent.scss */
 #textcontent table#cv td {
   padding: 5px 2px;
 }
-/* line 34, ../sass/textcontent.scss */
+/* line 33, ../sass/textcontent.scss */
 #textcontent table#cv td:first-child {
   width: 100px;
   text-align: right;

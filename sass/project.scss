@@ -4,15 +4,12 @@
 $thumbgroup-spacing: 3px;
 // 1 = no tinting, 0 = no image left
 $tinting: 0.6;
-$dotbar-spacing: 10px;
+$dotbar-spacing: 5px;
 $navbuttonsize: 40px;
 
 nav#thumbbar {
 	width: 100%;
 	text-align: center;
-	padding-bottom: $dotbar-spacing;
-	margin-bottom: $dotbar-spacing;
-	border-bottom: 1px dotted black;
 	.project {
 		display: inline-block;
 		margin: 0 $thumbgroup-spacing;
@@ -25,6 +22,10 @@ nav#thumbbar {
 			}
 		}
 	}
+}
+hr {
+	margin: $dotbar-spacing 0;
+	padding: 0;
 }
 
 > header {

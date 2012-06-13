@@ -21,12 +21,11 @@ $table-cell-spacing-vertical: 5px;
 		margin-top: $separator-spacing;
 		color: $turquoise;
 	}
-	hr {
-		border-top: 1px dotted black;
-		margin: $separator-spacing 0;
-	}
 	a, a:link, a:hover, a:active, a:visited {
 		color: $turquoise !important;
+	}
+	hr {
+		margin: $separator-spacing 0;
 	}
 	table#cv {
 		td {

@@ -63,14 +63,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 7, ../sass/screen.scss */
+/* line 8, ../sass/screen.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 11, ../sass/screen.scss */
+/* line 12, ../sass/screen.scss */
 body {
   position: relative;
   width: 980px;
@@ -79,7 +79,7 @@ body {
   padding-right: 5px;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 #content {
   font-family: 'Ruluko';
   color: #707070;
@@ -100,6 +100,16 @@ body {
 /* line 53, ../sass/fonts.scss */
 #content a:hover, #content a.activer {
   color: #84acb0;
+}
+
+/* line 26, ../sass/screen.scss */
+hr {
+  width: 100%;
+  height: 2px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-image: url('/imgs/hr.png?1339579903');
 }
 
 /* line 15, ../sass/header.scss */
@@ -214,7 +224,7 @@ footer {
   line-height: 1.5em;
   width: 100%;
 }
-/* line 14, ../sass/fonts.scss */
+/* line 14, /Volumes/case-sensitive/dev/paulinealtmann.de/sass/fonts.scss */
 footer a, footer a:link a:active, footer a:visited, footer a:hover {
   color: inherit;
   font-size: inherit;
@@ -222,31 +232,33 @@ footer a, footer a:link a:active, footer a:visited, footer a:hover {
   font-weight: inherit;
 }
 /* line 10, ../sass/footer.scss */
+footer hr {
+  margin: 3px;
+}
+/* line 14, ../sass/footer.scss */
 footer #footerbar {
   display: block;
   position: relative;
   top: 0px;
   width: 100%;
-  border-top: 1px dotted black;
-  margin-bottom: 5px;
 }
-/* line 19, ../sass/footer.scss */
+/* line 21, ../sass/footer.scss */
 footer div {
   width: 100%;
 }
-/* line 21, ../sass/footer.scss */
+/* line 23, ../sass/footer.scss */
 footer div > span {
   display: inline-block;
 }
-/* line 26, ../sass/footer.scss */
+/* line 28, ../sass/footer.scss */
 footer nav {
   float: right;
 }
-/* line 28, ../sass/footer.scss */
+/* line 30, ../sass/footer.scss */
 footer nav ul {
   display: inline-block;
 }
-/* line 32, ../sass/footer.scss */
+/* line 34, ../sass/footer.scss */
 footer nav li {
   display: inline-block;
 }
@@ -255,11 +267,8 @@ footer nav li {
 nav#thumbbar {
   width: 100%;
   text-align: center;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border-bottom: 1px dotted black;
 }
-/* line 16, ../sass/project.scss */
+/* line 13, ../sass/project.scss */
 nav#thumbbar .project {
   display: inline-block;
   margin: 0 3px;
@@ -267,43 +276,49 @@ nav#thumbbar .project {
   line-height: 1em;
   height: 12px;
 }
-/* line 23, ../sass/project.scss */
+/* line 20, ../sass/project.scss */
 nav#thumbbar .project a.active img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
 }
 
-/* line 30, ../sass/project.scss */
+/* line 26, ../sass/project.scss */
+hr {
+  margin: 5px 0;
+  padding: 0;
+}
+
+/* line 31, ../sass/project.scss */
 > header {
   margin-bottom: 25px;
 }
-/* line 31, ../sass/project.scss */
+/* line 32, ../sass/project.scss */
 > header .short {
   font-size: 11pt;
   margin-bottom: 5px;
 }
 
-/* line 38, ../sass/project.scss */
+/* line 39, ../sass/project.scss */
 #frontpage {
   display: block !important;
 }
 
-/* line 42, ../sass/project.scss */
+/* line 43, ../sass/project.scss */
 .images {
   display: none;
   position: relative;
   width: 100%;
 }
-/* line 46, ../sass/project.scss */
+/* line 47, ../sass/project.scss */
 .images img {
   position: absolute;
 }
-/* line 49, ../sass/project.scss */
+/* line 50, ../sass/project.scss */
 .images:target {
   display: block;
 }
 
-/* line 54, ../sass/project.scss */
+/* line 55, ../sass/project.scss */
 #prev, #next {
   position: absolute;
   width: 40px;
@@ -312,12 +327,12 @@ nav#thumbbar .project a.active img {
   top: 330px;
 }
 
-/* line 62, ../sass/project.scss */
+/* line 63, ../sass/project.scss */
 #prev {
   left: 35px;
 }
 
-/* line 66, ../sass/project.scss */
+/* line 67, ../sass/project.scss */
 #next {
   right: -40px;
 }
@@ -354,19 +369,18 @@ nav#thumbbar .project a.active img {
   color: #84acb0;
 }
 /* line 24, ../sass/textcontent.scss */
-#textcontent hr {
-  border-top: 1px dotted black;
-  margin: 10px 0;
-}
-/* line 28, ../sass/textcontent.scss */
 #textcontent a, #textcontent a:link, #textcontent a:hover, #textcontent a:active, #textcontent a:visited {
   color: #84acb0 !important;
 }
-/* line 32, ../sass/textcontent.scss */
+/* line 27, ../sass/textcontent.scss */
+#textcontent hr {
+  margin: 10px 0;
+}
+/* line 31, ../sass/textcontent.scss */
 #textcontent table#cv td {
   padding: 5px 2px;
 }
-/* line 34, ../sass/textcontent.scss */
+/* line 33, ../sass/textcontent.scss */
 #textcontent table#cv td:first-child {
   width: 100px;
   text-align: right;
