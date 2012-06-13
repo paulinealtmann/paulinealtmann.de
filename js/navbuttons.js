@@ -13,9 +13,9 @@ define(['jquery'], function($) {
 				clickLink($links, i+1);
 				return
 			}
-			// No project is active
-			clickLink($links, 0);
 		}
+		// No project is active
+		clickLink($links, 0);
 	});
 
 	$('#prev').click(function() {
@@ -23,11 +23,11 @@ define(['jquery'], function($) {
 		for(var i = $links.length-1; i > 0; i--) {
 			var $link = $($links.get(i))
 			if($link.hasClass('active')) {
-				clickLinks($links, i-1);
+				clickLink($links, i-1);
 				return;
 			}
-			// No project is active
-			clickLink($links, 0);
 		}
+		// No project is active
+		clickLink($links, $links.length-1);
 	});
 });

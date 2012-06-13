@@ -5,6 +5,7 @@ $thumbgroup-spacing: 3px;
 // 1 = no tinting, 0 = no image left
 $tinting: 0.6;
 $dotbar-spacing: 10px;
+$navbuttonsize: 40px;
 
 nav#thumbbar {
 	width: 100%;
@@ -50,19 +51,18 @@ nav#thumbbar {
 	}
 }
 
-$tmpbutton: 40px;
 #prev, #next {
 	position: absolute;
-	width: $tmpbutton;
-	height: $tmpbutton;
+	width: $navbuttonsize;
+	height: $navbuttonsize;
 	border: 1px solid black;
 	top: 330px;;
 }
 
 #prev {
-	left: -$tmpbutton + 75px;
+	left: -$navbuttonsize + 75px;
 }
 
 #next {
-	right: -$tmpbutton;
+	right: -$navbuttonsize;
 }
