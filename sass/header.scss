@@ -43,7 +43,7 @@ body > header {
 					.normal {
 						display: block;
 					}
-					.active {
+					.hover {
 						display: none;
 					}
 				}
@@ -60,11 +60,10 @@ body > header {
 			}
 			li:hover {
 				figure {
-					border-bottom: 1px dotted black;
 					.normal {
 						display: none;
 					}
-					.active {
+					.hover {
 						display: block;
 					}
 				}

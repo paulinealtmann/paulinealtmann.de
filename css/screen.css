@@ -171,7 +171,7 @@ body > header nav > ul > li figure .normal {
   display: block;
 }
 /* line 46, ../sass/header.scss */
-body > header nav > ul > li figure .active {
+body > header nav > ul > li figure .hover {
   display: none;
 }
 /* line 50, ../sass/header.scss */
@@ -201,16 +201,12 @@ body > header nav > ul > li ul li a, body > header nav > ul > li ul li a:link a:
 body > header nav > ul > li ul li a:hover, body > header nav > ul > li ul li a.activer {
   color: #84acb0;
 }
-/* line 62, ../sass/header.scss */
-body > header nav > ul li:hover figure {
-  border-bottom: 1px dotted black;
-}
-/* line 64, ../sass/header.scss */
+/* line 63, ../sass/header.scss */
 body > header nav > ul li:hover figure .normal {
   display: none;
 }
-/* line 67, ../sass/header.scss */
-body > header nav > ul li:hover figure .active {
+/* line 66, ../sass/header.scss */
+body > header nav > ul li:hover figure .hover {
   display: block;
 }
 
@@ -224,7 +220,7 @@ footer {
   line-height: 1.5em;
   width: 100%;
 }
-/* line 14, /Volumes/case-sensitive/dev/paulinealtmann.de/sass/fonts.scss */
+/* line 14, ../sass/fonts.scss */
 footer a, footer a:link a:active, footer a:visited, footer a:hover {
   color: inherit;
   font-size: inherit;
