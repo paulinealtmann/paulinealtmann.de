@@ -1,11 +1,13 @@
 @import "compass/css3/opacity";
+@import "compass/css3/images";
 @import "color";
 
 $thumbgroup-spacing: 3px;
 // 1 = no tinting, 0 = no image left
 $tinting: 0.6;
 $dotbar-spacing: 5px;
-$navbuttonsize: 40px;
+$navbuttonwidth: 37px;
+$navbuttonheight: 58px;
 
 nav#thumbbar {
 	width: 100%;
@@ -54,16 +56,23 @@ hr {
 
 #prev, #next {
 	position: absolute;
-	width: $navbuttonsize;
-	height: $navbuttonsize;
-	border: 1px solid black;
+	width: $navbuttonwidth;
+	height: $navbuttonheight;
 	top: 330px;;
 }
 
 #prev {
-	left: -$navbuttonsize + 75px;
+	left: 23px;
+	@include background-image(image-url("arrows/arrow_left.png"));
+	&:hover {
+		@include background-image(image-url("arrows/arrow_left_hover.png"));
+	}
 }
 
 #next {
-	right: -$navbuttonsize;
+	right: -52px;
+	@include background-image(image-url("arrows/arrow_right.png"));
+	&:hover {
+		@include background-image(image-url("arrows/arrow_right_hover.png"));
+	}
 }

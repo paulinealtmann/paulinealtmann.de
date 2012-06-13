@@ -28,10 +28,10 @@ hr {
 	height: 2px;
 	margin: 0;
 	padding: 0;
-	// border-top: 1px dotted black;
 	border: 0;
 	@include background-image(image-url("hr.png"));
 }
+
 @import "header";
 @import "footer";
 @import "project";
