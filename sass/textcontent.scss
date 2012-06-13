@@ -3,7 +3,7 @@
 @import "fonts";
 
 $separator-spacing: 10px;
-$table-cell-spacing-horizontal: 2px;
+$table-cell-spacing-horizontal: 11px;
 $table-cell-spacing-vertical: 5px;
 
 #content {
@@ -29,9 +29,12 @@ $table-cell-spacing-vertical: 5px;
 	}
 	table#cv {
 		td {
-			padding: $table-cell-spacing-vertical $table-cell-spacing-horizontal;
+			&:last-child {
+				padding: $table-cell-spacing-vertical $table-cell-spacing-horizontal;
+			}
 			&:first-child {
-				width: 100px;
+				padding: $table-cell-spacing-vertical 0;
+				width: 67px;
 				text-align: right;
 				vertical-align: top;
 

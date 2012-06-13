@@ -37,13 +37,14 @@
 #textcontent hr {
   margin: 10px 0;
 }
-/* line 31, ../sass/textcontent.scss */
-#textcontent table#cv td {
-  padding: 5px 2px;
+/* line 32, ../sass/textcontent.scss */
+#textcontent table#cv td:last-child {
+  padding: 5px 11px;
 }
-/* line 33, ../sass/textcontent.scss */
+/* line 35, ../sass/textcontent.scss */
 #textcontent table#cv td:first-child {
-  width: 100px;
+  padding: 5px 0;
+  width: 67px;
   text-align: right;
   vertical-align: top;
 }

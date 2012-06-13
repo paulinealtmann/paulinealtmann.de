@@ -66,4 +66,4 @@ pages:
           x: 0
           y: 0
 ---
-Kursdokumentation des Hauptstudiums · Format: 17 ⨯ 24cm · Umfang: 84 Seiten · Einband: Leinen, Schutzumschlag ([Plakat](http://www.google.de))
+Kursdokumentation des Hauptstudiums · Format: 17 x 24cm · Umfang: 84 Seiten · Einband: Leinen, Schutzumschlag ([Plakat](http://www.google.de))

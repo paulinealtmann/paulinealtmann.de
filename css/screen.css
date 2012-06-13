@@ -262,7 +262,7 @@ footer nav li {
 /* line 12, ../sass/project.scss */
 nav#thumbbar {
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 /* line 15, ../sass/project.scss */
 nav#thumbbar .project {
@@ -274,8 +274,8 @@ nav#thumbbar .project {
 }
 /* line 22, ../sass/project.scss */
 nav#thumbbar .project a.active img {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
 }
 
 /* line 28, ../sass/project.scss */
@@ -285,36 +285,35 @@ hr {
 }
 
 /* line 33, ../sass/project.scss */
-> header {
+header {
   margin-bottom: 25px;
 }
 /* line 34, ../sass/project.scss */
-> header .short {
+header .short {
   font-size: 11pt;
-  margin-bottom: 5px;
 }
 
-/* line 41, ../sass/project.scss */
+/* line 40, ../sass/project.scss */
 #frontpage {
   display: block !important;
 }
 
-/* line 45, ../sass/project.scss */
+/* line 44, ../sass/project.scss */
 .images {
   display: none;
   position: relative;
   width: 100%;
 }
-/* line 49, ../sass/project.scss */
+/* line 48, ../sass/project.scss */
 .images img {
   position: absolute;
 }
-/* line 52, ../sass/project.scss */
+/* line 51, ../sass/project.scss */
 .images:target {
   display: block;
 }
 
-/* line 57, ../sass/project.scss */
+/* line 56, ../sass/project.scss */
 #prev, #next {
   position: absolute;
   width: 37px;
@@ -322,22 +321,22 @@ hr {
   top: 330px;
 }
 
-/* line 64, ../sass/project.scss */
+/* line 63, ../sass/project.scss */
 #prev {
   left: 23px;
   background-image: url('/imgs/arrows/arrow_left.png?1339581409');
 }
-/* line 67, ../sass/project.scss */
+/* line 66, ../sass/project.scss */
 #prev:hover {
   background-image: url('/imgs/arrows/arrow_left_hover.png?1339581388');
 }
 
-/* line 72, ../sass/project.scss */
+/* line 71, ../sass/project.scss */
 #next {
   right: -52px;
   background-image: url('/imgs/arrows/arrow_right.png?1339581458');
 }
-/* line 75, ../sass/project.scss */
+/* line 74, ../sass/project.scss */
 #next:hover {
   background-image: url('/imgs/arrows/arrow_right_hover.png?1339581448');
 }
@@ -381,13 +380,14 @@ hr {
 #textcontent hr {
   margin: 10px 0;
 }
-/* line 31, ../sass/textcontent.scss */
-#textcontent table#cv td {
-  padding: 5px 2px;
+/* line 32, ../sass/textcontent.scss */
+#textcontent table#cv td:last-child {
+  padding: 5px 11px;
 }
-/* line 33, ../sass/textcontent.scss */
+/* line 35, ../sass/textcontent.scss */
 #textcontent table#cv td:first-child {
-  width: 100px;
+  padding: 5px 0;
+  width: 67px;
   text-align: right;
   vertical-align: top;
 }
