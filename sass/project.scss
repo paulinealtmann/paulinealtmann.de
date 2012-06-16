@@ -34,6 +34,15 @@ header {
 	.short {
 		font-size: 11pt;
 	}
+	.video {
+		float: right;
+		a {
+			vertical-align: top;
+			img {
+				margin-right: $thumbgroup-spacing;
+			}
+		}
+	}
 }
 
 #frontpage {

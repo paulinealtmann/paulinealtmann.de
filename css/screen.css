@@ -288,28 +288,40 @@ hr {
 header .short {
   font-size: 11pt;
 }
-
+/* line 37, ../sass/project.scss */
+header .video {
+  float: right;
+}
 /* line 39, ../sass/project.scss */
+header .video a {
+  vertical-align: top;
+}
+/* line 41, ../sass/project.scss */
+header .video a img {
+  margin-right: 3px;
+}
+
+/* line 48, ../sass/project.scss */
 #frontpage {
   display: block !important;
 }
 
-/* line 43, ../sass/project.scss */
+/* line 52, ../sass/project.scss */
 .images {
   display: none;
   position: relative;
   width: 100%;
 }
-/* line 47, ../sass/project.scss */
+/* line 56, ../sass/project.scss */
 .images img {
   position: absolute;
 }
-/* line 50, ../sass/project.scss */
+/* line 59, ../sass/project.scss */
 .images:target {
   display: block;
 }
 
-/* line 55, ../sass/project.scss */
+/* line 64, ../sass/project.scss */
 #prev, #next {
   position: absolute;
   width: 37px;
@@ -317,22 +329,22 @@ header .short {
   top: 330px;
 }
 
-/* line 62, ../sass/project.scss */
+/* line 71, ../sass/project.scss */
 #prev {
   left: 23px;
   background-image: url('/imgs/arrows/arrow_left.png?1339581409');
 }
-/* line 65, ../sass/project.scss */
+/* line 74, ../sass/project.scss */
 #prev:hover {
   background-image: url('/imgs/arrows/arrow_left_hover.png?1339581388');
 }
 
-/* line 70, ../sass/project.scss */
+/* line 79, ../sass/project.scss */
 #next {
   right: -52px;
   background-image: url('/imgs/arrows/arrow_right.png?1339581458');
 }
-/* line 73, ../sass/project.scss */
+/* line 82, ../sass/project.scss */
 #next:hover {
   background-image: url('/imgs/arrows/arrow_right_hover.png?1339581448');
 }

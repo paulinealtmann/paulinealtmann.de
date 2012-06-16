@@ -1,9 +1,10 @@
 ---
 layout: project
-title: "Dokumentation Hauptstudium"
-type: "Buch"
-additional: "2011"
+title: Dokumentation Hauptstudium
+type: Buch
+additional: 2011
 category: typo
+video: http://player.vimeo.com/video/14214120
 pages:
   - thumb: doku_hs_01.jpg
     images:
