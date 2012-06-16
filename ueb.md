@@ -1,7 +1,6 @@
 ---
-title: "Über mich"
+layout: textcontent
 category: ueb
-
 cv:
   - date: 10/08 - 03/09
     details: >
@@ -27,4 +26,3 @@ Kontakt <mailto:mail (at) paulinealtmann.de>
 {% include cv-table.html %}
 
 *****
-
