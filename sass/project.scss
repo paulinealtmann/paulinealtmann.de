@@ -36,11 +36,9 @@ header {
 	}
 	.video {
 		float: right;
-		a {
-			vertical-align: top;
-			img {
-				margin-right: $thumbgroup-spacing;
-			}
+		margin-right: $thumbgroup-spacing;
+		img {
+			margin-right: $thumbgroup-spacing;
 		}
 	}
 }
