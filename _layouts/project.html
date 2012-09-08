@@ -20,10 +20,17 @@ layout: mainframe
 		{% endif %}
 	{% endfor %}
 </nav>
+<hr>
 <div id="prev"></div>
 <div id="next"></div>
 {% unless page.category contains page.title %}
 	<header>
+		{% if page.video %}
+		<div class="video">
+			<!-- {{page.video}} -->
+			<a href="javascript: window.open('{{page.video}}');"><img src="/imgs/vimeo.png">Film ansehen</a>
+		</div>
+		{% endif %}
 		<p class="short">{{page.title}} · {{page.type}} · {{page.additional}}</p>
 		<p class="desc">{{content}}</p>
 	</header>

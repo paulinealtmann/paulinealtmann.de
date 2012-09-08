@@ -12,17 +12,21 @@
   height: auto;
   font-family: 'Ruluko';
   color: #707070;
-  font-size: 8pt;
+  font-size: 10pt;
   text-decoration: none;
   font-weight: normal;
   line-height: 1.5em;
 }
-/* line 14, ../sass/fonts.scss */
+/* line 47, ../sass/fonts.scss */
 #textcontent a, #textcontent a:link a:active, #textcontent a:visited, #textcontent a:hover {
   color: inherit;
   font-size: inherit;
   text-decoration: inherit;
   font-weight: inherit;
+}
+/* line 53, ../sass/fonts.scss */
+#textcontent a:hover, #textcontent a.activer {
+  color: #84acb0;
 }
 /* line 20, ../sass/textcontent.scss */
 #textcontent h1 {
@@ -30,21 +34,21 @@
   color: #84acb0;
 }
 /* line 24, ../sass/textcontent.scss */
-#textcontent hr {
-  border-top: 1px dotted black;
-  margin: 10px 0;
-}
-/* line 28, ../sass/textcontent.scss */
 #textcontent a, #textcontent a:link, #textcontent a:hover, #textcontent a:active, #textcontent a:visited {
   color: #84acb0 !important;
 }
-/* line 32, ../sass/textcontent.scss */
-#textcontent table#cv td {
-  padding: 5px 2px;
+/* line 27, ../sass/textcontent.scss */
+#textcontent hr {
+  margin: 10px 0;
 }
-/* line 34, ../sass/textcontent.scss */
+/* line 32, ../sass/textcontent.scss */
+#textcontent table#cv td:last-child {
+  padding: 5px 11px;
+}
+/* line 35, ../sass/textcontent.scss */
 #textcontent table#cv td:first-child {
-  width: 100px;
+  padding: 5px 0;
+  width: 80px;
   text-align: right;
   vertical-align: top;
 }

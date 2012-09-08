@@ -1,17 +1,17 @@
 @import "compass/css3/opacity";
+@import "compass/css3/images";
 @import "color";
 
 $thumbgroup-spacing: 3px;
 // 1 = no tinting, 0 = no image left
-$tinting: 0.6;
-$dotbar-spacing: 10px;
+$tinting: 0;
+$dotbar-spacing: 5px;
+$navbuttonwidth: 37px;
+$navbuttonheight: 58px;
 
 nav#thumbbar {
 	width: 100%;
-	text-align: center;
-	padding-bottom: $dotbar-spacing;
-	margin-bottom: $dotbar-spacing;
-	border-bottom: 1px dotted black;
+	text-align: left;
 	.project {
 		display: inline-block;
 		margin: 0 $thumbgroup-spacing;
@@ -25,13 +25,23 @@ nav#thumbbar {
 		}
 	}
 }
+hr {
+	margin: $dotbar-spacing 0;
+	padding: 0;
+}
 
-> header {
+header {
 	.short {
 		font-size: 11pt;
-		margin-bottom: 5px;
 	}
-	margin-bottom: 25px;
+	.video {
+		float: right;
+		margin-right: $thumbgroup-spacing;
+		img {
+			margin-right: $thumbgroup-spacing;
+			vertical-align: middle;
+		}
+	}
 }
 
 #frontpage {
@@ -50,19 +60,25 @@ nav#thumbbar {
 	}
 }
 
-$tmpbutton: 40px;
 #prev, #next {
 	position: absolute;
-	width: $tmpbutton;
-	height: $tmpbutton;
-	border: 1px solid black;
+	width: $navbuttonwidth;
+	height: $navbuttonheight;
 	top: 330px;;
 }
 
 #prev {
-	left: -$tmpbutton + 75px;
+	left: 23px;
+	@include background-image(image-url("arrows/arrow_left.png"));
+	&:hover {
+		@include background-image(image-url("arrows/arrow_left_hover.png"));
+	}
 }
 
 #next {
-	right: -$tmpbutton;
+	right: -52px;
+	@include background-image(image-url("arrows/arrow_right.png"));
+	&:hover {
+		@include background-image(image-url("arrows/arrow_right_hover.png"));
+	}
 }

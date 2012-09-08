@@ -10,8 +10,12 @@
 				<li>
 					<figure>
 						<a href="{{url}}/{{item}}.html">
-							<img src="{{url}}/imgs/header/{{item}}button.jpg" class="normal" />
-							<img src="{{url}}/imgs/header/{{item}}button_mouseover.jpg" class="active" />
+							{% if page.category contains item %}
+								<img src="{{url}}/imgs/header/{{item}}button_active.png" class="normal" />
+							{% else %}
+								<img src="{{url}}/imgs/header/{{item}}button.png" class="normal" />
+							{% endif %}
+							<img src="{{url}}/imgs/header/{{item}}button_hover.png" class="hover" />
 						</a>
 					</figure>
 					{% unless item contains "ueb" %}

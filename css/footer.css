@@ -16,31 +16,33 @@ footer a, footer a:link a:active, footer a:visited, footer a:hover {
   font-weight: inherit;
 }
 /* line 10, ../sass/footer.scss */
+footer hr {
+  margin: 3px;
+}
+/* line 14, ../sass/footer.scss */
 footer #footerbar {
   display: block;
   position: relative;
   top: 0px;
   width: 100%;
-  border-top: 1px dotted black;
-  margin-bottom: 5px;
 }
-/* line 19, ../sass/footer.scss */
+/* line 21, ../sass/footer.scss */
 footer div {
   width: 100%;
 }
-/* line 21, ../sass/footer.scss */
+/* line 23, ../sass/footer.scss */
 footer div > span {
   display: inline-block;
 }
-/* line 26, ../sass/footer.scss */
+/* line 28, ../sass/footer.scss */
 footer nav {
   float: right;
 }
-/* line 28, ../sass/footer.scss */
+/* line 30, ../sass/footer.scss */
 footer nav ul {
   display: inline-block;
 }
-/* line 32, ../sass/footer.scss */
+/* line 34, ../sass/footer.scss */
 footer nav li {
   display: inline-block;
 }

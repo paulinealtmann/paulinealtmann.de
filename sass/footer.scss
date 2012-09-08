@@ -1,19 +1,21 @@
 @import "color";
 @import "fonts";
 
-$footerbar-margin: 5px;
+$footerbar-margin: 3px;
 
 footer {
     @include footer-font();
     width: 100%;
+
+    hr {
+        margin: $footerbar-margin;
+    }
 
 	#footerbar {
         display: block;
         position: relative;
         top: 0px;
         width: 100%;
-        border-top: 1px dotted black;
-        margin-bottom: $footerbar-margin;
     }
 
     div {
