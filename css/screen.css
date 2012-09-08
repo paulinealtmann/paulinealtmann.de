@@ -1,4 +1,4 @@
-/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -117,7 +117,7 @@ body > header {
   *zoom: 1;
   margin-bottom: 10px;
 }
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 body > header:after {
   content: "";
   display: table;
@@ -296,29 +296,30 @@ header .video {
 /* line 40, ../sass/project.scss */
 header .video img {
   margin-right: 3px;
+  vertical-align: middle;
 }
 
-/* line 46, ../sass/project.scss */
+/* line 47, ../sass/project.scss */
 #frontpage {
   display: block !important;
 }
 
-/* line 50, ../sass/project.scss */
+/* line 51, ../sass/project.scss */
 .images {
   display: none;
   position: relative;
   width: 100%;
 }
-/* line 54, ../sass/project.scss */
+/* line 55, ../sass/project.scss */
 .images img {
   position: absolute;
 }
-/* line 57, ../sass/project.scss */
+/* line 58, ../sass/project.scss */
 .images:target {
   display: block;
 }
 
-/* line 62, ../sass/project.scss */
+/* line 63, ../sass/project.scss */
 #prev, #next {
   position: absolute;
   width: 37px;
@@ -326,22 +327,22 @@ header .video img {
   top: 330px;
 }
 
-/* line 69, ../sass/project.scss */
+/* line 70, ../sass/project.scss */
 #prev {
   left: 23px;
   background-image: url('/imgs/arrows/arrow_left.png?1339581409');
 }
-/* line 72, ../sass/project.scss */
+/* line 73, ../sass/project.scss */
 #prev:hover {
   background-image: url('/imgs/arrows/arrow_left_hover.png?1339581388');
 }
 
-/* line 77, ../sass/project.scss */
+/* line 78, ../sass/project.scss */
 #next {
   right: -52px;
   background-image: url('/imgs/arrows/arrow_right.png?1339581458');
 }
-/* line 80, ../sass/project.scss */
+/* line 81, ../sass/project.scss */
 #next:hover {
   background-image: url('/imgs/arrows/arrow_right_hover.png?1339581448');
 }
@@ -360,17 +361,21 @@ header .video img {
   height: auto;
   font-family: 'Ruluko';
   color: #707070;
-  font-size: 8pt;
+  font-size: 10pt;
   text-decoration: none;
   font-weight: normal;
   line-height: 1.5em;
 }
-/* line 14, ../sass/fonts.scss */
+/* line 47, ../sass/fonts.scss */
 #textcontent a, #textcontent a:link a:active, #textcontent a:visited, #textcontent a:hover {
   color: inherit;
   font-size: inherit;
   text-decoration: inherit;
   font-weight: inherit;
+}
+/* line 53, ../sass/fonts.scss */
+#textcontent a:hover, #textcontent a.activer {
+  color: #84acb0;
 }
 /* line 20, ../sass/textcontent.scss */
 #textcontent h1 {

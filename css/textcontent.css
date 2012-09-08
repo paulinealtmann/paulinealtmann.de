@@ -12,17 +12,21 @@
   height: auto;
   font-family: 'Ruluko';
   color: #707070;
-  font-size: 8pt;
+  font-size: 10pt;
   text-decoration: none;
   font-weight: normal;
   line-height: 1.5em;
 }
-/* line 14, ../sass/fonts.scss */
+/* line 47, ../sass/fonts.scss */
 #textcontent a, #textcontent a:link a:active, #textcontent a:visited, #textcontent a:hover {
   color: inherit;
   font-size: inherit;
   text-decoration: inherit;
   font-weight: inherit;
+}
+/* line 53, ../sass/fonts.scss */
+#textcontent a:hover, #textcontent a.activer {
+  color: #84acb0;
 }
 /* line 20, ../sass/textcontent.scss */
 #textcontent h1 {

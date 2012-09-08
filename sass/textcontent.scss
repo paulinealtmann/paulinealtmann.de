@@ -16,7 +16,7 @@ $table-cell-spacing-vertical: 5px;
 	margin-top: 40px;
 	width: 400px;
 	height: auto;
-	@include footer-font();
+	@include normal-font();
 	h1 {
 		margin-top: $separator-spacing;
 		color: $turquoise;
