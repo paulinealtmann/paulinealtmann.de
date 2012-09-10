@@ -1,3 +1,4 @@
 #!/bin/bash
 
-jekyl --serve
+cd $(dirname $0)
+jekyll --serve
