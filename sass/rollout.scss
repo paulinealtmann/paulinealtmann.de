@@ -5,6 +5,7 @@
 	#{$elem} {
 		max-height: 0;
 		@include single-transition(max-height, $duration, $animation);
+		z-index: 900;
 	}
 	&:hover {
 		#{$elem} {

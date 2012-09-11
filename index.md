@@ -1,5 +1,6 @@
 ---
 layout: project
+hide_navi: true
 title: and
 category: and
 images:

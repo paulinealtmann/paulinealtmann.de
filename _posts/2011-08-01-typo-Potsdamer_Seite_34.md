@@ -36,5 +36,5 @@ pages:
           x: 380
           y: 7
 ---
-Ein Katalog im Format der Potsdamer Seiten mit den zuvor im Kurs entstandenen Typoplakaten. Mehr zu den Plakaten [hier.]  
+Ein Katalog im Format der Potsdamer Seiten mit den zuvor im Kurs entstandenen Typoplakaten. Mehr zu den Plakaten [hier.](http://www.google.de)  
 Format 23 x 20cm · Umfang: 168 Seiten · Einband: Fadenheftung, dunkelgraues Leinen, Schutzumschlag
