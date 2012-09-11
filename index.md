@@ -2,6 +2,7 @@
 layout: project
 hide_navi: true
 title: and
+is_main: true
 category: and
 images:
   - name: startseite_01_01.jpg
