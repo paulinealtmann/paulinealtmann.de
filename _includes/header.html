@@ -10,7 +10,7 @@
 				<li>
 					<figure>
 						<a href="{{url}}/{{item}}.html">
-							{% if page.category contains item %}
+							{% if page.category contains item and page.is_main != true %}
 								<img src="{{url}}/imgs/header/{{item}}button_active.png" class="normal" />
 							{% else %}
 								<img src="{{url}}/imgs/header/{{item}}button.png" class="normal" />
