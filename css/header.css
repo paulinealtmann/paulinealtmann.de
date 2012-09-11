@@ -85,7 +85,7 @@ body > header nav > ul > li ul li a, body > header nav > ul > li ul li a:link a:
   font-weight: inherit;
 }
 /* line 35, ../sass/fonts.scss */
-body > header nav > ul > li ul li a:hover, body > header nav > ul > li ul li a.activer {
+body > header nav > ul > li ul li a:hover, body > header nav > ul > li ul li a.active {
   color: #84acb0;
 }
 /* line 63, ../sass/header.scss */

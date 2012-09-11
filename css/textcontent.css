@@ -25,7 +25,7 @@
   font-weight: inherit;
 }
 /* line 53, ../sass/fonts.scss */
-#textcontent a:hover, #textcontent a.activer {
+#textcontent a:hover, #textcontent a.active {
   color: #84acb0;
 }
 /* line 20, ../sass/textcontent.scss */
