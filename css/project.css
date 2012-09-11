@@ -69,19 +69,19 @@ header .video img {
 /* line 70, ../sass/project.scss */
 #prev {
   left: 23px;
-  background-image: url('/imgs/arrows/arrow_left.png?1339581409');
+  background-image: url('/imgs/arrows/arrow_left.png?1347275296');
 }
 /* line 73, ../sass/project.scss */
 #prev:hover {
-  background-image: url('/imgs/arrows/arrow_left_hover.png?1339581388');
+  background-image: url('/imgs/arrows/arrow_left_hover.png?1347275296');
 }
 
 /* line 78, ../sass/project.scss */
 #next {
   right: -52px;
-  background-image: url('/imgs/arrows/arrow_right.png?1339581458');
+  background-image: url('/imgs/arrows/arrow_right.png?1347275296');
 }
 /* line 81, ../sass/project.scss */
 #next:hover {
-  background-image: url('/imgs/arrows/arrow_right_hover.png?1339581448');
+  background-image: url('/imgs/arrows/arrow_right_hover.png?1347275296');
 }

@@ -3,7 +3,7 @@ body > header {
   *zoom: 1;
   margin-bottom: 10px;
 }
-/* line 38, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 body > header:after {
   content: "";
   display: table;
@@ -42,8 +42,9 @@ body > header nav > ul > li ul {
   -ms-transition: max-height 1s linear;
   -o-transition: max-height 1s linear;
   transition: max-height 1s linear;
+  z-index: 900;
 }
-/* line 10, ../sass/rollout.scss */
+/* line 11, ../sass/rollout.scss */
 body > header nav > ul > li:hover ul {
   max-height: 400px !important;
 }

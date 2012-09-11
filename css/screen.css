@@ -109,7 +109,7 @@ hr {
   margin: 0;
   padding: 0;
   border: 0;
-  background-image: url('/imgs/hr.png?1339579903');
+  background-image: url('/imgs/hr.png?1347275296');
 }
 
 /* line 15, ../sass/header.scss */
@@ -156,8 +156,9 @@ body > header nav > ul > li ul {
   -ms-transition: max-height 1s linear;
   -o-transition: max-height 1s linear;
   transition: max-height 1s linear;
+  z-index: 900;
 }
-/* line 10, ../sass/rollout.scss */
+/* line 11, ../sass/rollout.scss */
 body > header nav > ul > li:hover ul {
   max-height: 400px !important;
 }
@@ -330,21 +331,21 @@ header .video img {
 /* line 70, ../sass/project.scss */
 #prev {
   left: 23px;
-  background-image: url('/imgs/arrows/arrow_left.png?1339581409');
+  background-image: url('/imgs/arrows/arrow_left.png?1347275296');
 }
 /* line 73, ../sass/project.scss */
 #prev:hover {
-  background-image: url('/imgs/arrows/arrow_left_hover.png?1339581388');
+  background-image: url('/imgs/arrows/arrow_left_hover.png?1347275296');
 }
 
 /* line 78, ../sass/project.scss */
 #next {
   right: -52px;
-  background-image: url('/imgs/arrows/arrow_right.png?1339581458');
+  background-image: url('/imgs/arrows/arrow_right.png?1347275296');
 }
 /* line 81, ../sass/project.scss */
 #next:hover {
-  background-image: url('/imgs/arrows/arrow_right_hover.png?1339581448');
+  background-image: url('/imgs/arrows/arrow_right_hover.png?1347275296');
 }
 
 /* line 9, ../sass/textcontent.scss */
@@ -357,7 +358,7 @@ header .video img {
 #textcontent {
   margin-left: 260px;
   margin-top: 40px;
-  width: 400px;
+  width: 500px;
   height: auto;
   font-family: 'Ruluko';
   color: #707070;
