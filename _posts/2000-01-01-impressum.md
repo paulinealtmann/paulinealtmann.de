@@ -27,6 +27,10 @@ Der Inhalt dieser Seiten ist urheberrechtlich geschützt. Die Inhalte sind nur f
 Haftungsausschluss
 ==================
 Die Inhalte meiner Seiten wurden mit größter Sorgfalt erstellt. Ich übernehme jedoch keinerlei Gewähr für die Aktualität, Korrektheit oder Vollständigkeit der bereitgestellten Inhalte und Informationen. Ich distanziere mich ausdrücklich von allen Inhalten aller verlinkten externen Internetseiten und mache mir diese Inhalte nicht zu eigen. Diese Erklärung gilt für alle auf dieser Website angebrachten Links.
+  
+  
+[Datenschutzhinweis](datenschutz.html)
+
 
 *****
 

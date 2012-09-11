@@ -1,28 +1,36 @@
 ---
 layout: project
-title: typo
-category: typo
+title: ani
+category: ani
 images:
-  - name: doku_hs_01_01.png
-    link: typo-hin_weg.html#page1
+  - name: deckblatt_01_01.jpg
+    link: ani-hajoreh.html#page1
     position:
       x: 0
-      y: 10
-  - name: doku_hs_01_02.png
-    link: typo-hin_weg.html#page2
+      y: 80
+  - name: deckblatt_01_02.jpg
+    link: ani-papillon.html#page1
     position:
-      x: 376
-      y: 15
-  - name: doku_hs_01_03.png
+      x: 0
+      y: 285
+  - name: deckblatt_01_03.jpg
+    link: ani-lightning.html#page1
     position:
-      x: 599
-      y: 15
-  - name: doku_hs_01_04.png
+      x: 280
+      y: 48
+  - name: deckblatt_01_04.jpg
+    link: ani-traumfilm.html#page1
     position:
-      x: 423
-      y: 233
-  - name: doku_hs_01_05.png
+      x: 320
+      y: 286
+  - name: deckblatt_01_05.jpg
+    link: ani-zweimaenner.html#page1
+    position:
+      x: 601
+      y: 98
+  - name: deckblatt_01_06.jpg
+    link: ani-walktheline.html#page1
     position:
       x: 641
-      y: 233
+      y: 287
 ---

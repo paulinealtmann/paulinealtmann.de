@@ -1,28 +1,21 @@
 ---
 layout: project
-title: typo
-category: typo
+title: and
+category: and
 images:
-  - name: doku_hs_01_01.png
-    link: typo-hin_weg.html#page1
+  - name: deckblatt_01_01.jpg
+    link: and-erdenrund.html#page1
     position:
       x: 0
-      y: 10
-  - name: doku_hs_01_02.png
-    link: typo-hin_weg.html#page2
+      y: 55
+  - name: deckblatt_01_02.jpg
+    link: and-pidoco.html#page1
     position:
-      x: 376
-      y: 15
-  - name: doku_hs_01_03.png
+      x: 200
+      y: 330
+  - name: deckblatt_01_03.jpg
+    link: and-asdf.html#page1
     position:
-      x: 599
-      y: 15
-  - name: doku_hs_01_04.png
-    position:
-      x: 423
-      y: 233
-  - name: doku_hs_01_05.png
-    position:
-      x: 641
-      y: 233
+      x: 570
+      y: 60
 ---

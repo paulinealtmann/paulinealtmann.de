@@ -3,7 +3,7 @@
 	<tr>
 		<td>{{item.date}}</td>
 		<td>
-			{{item.details | markdownify | replace: "<a","<br><a" }}
+			{{item.details | markdownify}}
 		</td>
 	</tr>
 {% endfor %}
