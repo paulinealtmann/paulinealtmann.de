@@ -1,87 +1,84 @@
-/* line 12, ../sass/project.scss */
-nav#thumbbar {
+/* line 13, ../sass/project.scss */
+#content nav#thumbbar {
   width: 100%;
   text-align: left;
 }
-/* line 15, ../sass/project.scss */
-nav#thumbbar .project {
+/* line 16, ../sass/project.scss */
+#content nav#thumbbar .project {
   display: inline-block;
   margin: 0 3px;
   background-color: #84acb0;
   line-height: 1em;
   height: 12px;
 }
-/* line 22, ../sass/project.scss */
-nav#thumbbar .project a.active img {
+/* line 23, ../sass/project.scss */
+#content nav#thumbbar .project a.active img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-
-/* line 28, ../sass/project.scss */
-hr {
+/* line 29, ../sass/project.scss */
+#content hr {
   margin: 5px 0;
   padding: 0;
 }
-
-/* line 34, ../sass/project.scss */
-header .short {
+/* line 35, ../sass/project.scss */
+#content header a:link, #content header a:active, #content header a:hover, #content header a:visited, #content header a {
+  color: #84acb0 !important;
+}
+/* line 38, ../sass/project.scss */
+#content header .short {
   font-size: 11pt;
 }
-/* line 37, ../sass/project.scss */
-header .video {
+/* line 41, ../sass/project.scss */
+#content header .video {
   float: right;
   margin-right: 3px;
 }
-/* line 40, ../sass/project.scss */
-header .video img {
+/* line 44, ../sass/project.scss */
+#content header .video img {
   margin-right: 3px;
   vertical-align: middle;
 }
-
-/* line 47, ../sass/project.scss */
-#frontpage {
+/* line 51, ../sass/project.scss */
+#content #frontpage {
   display: block !important;
 }
-
-/* line 51, ../sass/project.scss */
-.images {
+/* line 55, ../sass/project.scss */
+#content .images {
   display: none;
   position: relative;
   width: 100%;
 }
-/* line 55, ../sass/project.scss */
-.images img {
+/* line 59, ../sass/project.scss */
+#content .images img {
   position: absolute;
 }
-/* line 58, ../sass/project.scss */
-.images:target {
+/* line 62, ../sass/project.scss */
+#content .images:target {
   display: block;
 }
-
-/* line 63, ../sass/project.scss */
-#prev, #next {
+/* line 67, ../sass/project.scss */
+#content #prev, #content #next {
   position: absolute;
   width: 37px;
   height: 58px;
   top: 330px;
 }
-
-/* line 70, ../sass/project.scss */
-#prev {
+/* line 74, ../sass/project.scss */
+#content #prev {
   left: 23px;
-  background-image: url('/imgs/arrows/arrow_left.png?1339581409');
+  background-image: url('/imgs/arrows/arrow_left.png?1347275296');
 }
-/* line 73, ../sass/project.scss */
-#prev:hover {
-  background-image: url('/imgs/arrows/arrow_left_hover.png?1339581388');
+/* line 77, ../sass/project.scss */
+#content #prev:hover {
+  background-image: url('/imgs/arrows/arrow_left_hover.png?1347275296');
 }
-
-/* line 78, ../sass/project.scss */
-#next {
+/* line 82, ../sass/project.scss */
+#content #next {
   right: -52px;
-  background-image: url('/imgs/arrows/arrow_right.png?1339581458');
+  background-image: url('/imgs/arrows/arrow_right.png?1347275296');
 }
-/* line 81, ../sass/project.scss */
-#next:hover {
-  background-image: url('/imgs/arrows/arrow_right_hover.png?1339581448');
+/* line 85, ../sass/project.scss */
+#content #next:hover {
+  background-image: url('/imgs/arrows/arrow_right_hover.png?1347275296');
 }

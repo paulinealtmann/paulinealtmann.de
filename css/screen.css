@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -90,15 +90,15 @@ body {
   width: 100%;
   height: 570px;
 }
-/* line 47, ../sass/fonts.scss */
+/* line 47, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/fonts.scss */
 #content a, #content a:link a:active, #content a:visited, #content a:hover {
   color: inherit;
   font-size: inherit;
   text-decoration: inherit;
   font-weight: inherit;
 }
-/* line 53, ../sass/fonts.scss */
-#content a:hover, #content a.activer {
+/* line 53, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/fonts.scss */
+#content a:hover, #content a.active {
   color: #84acb0;
 }
 
@@ -109,38 +109,38 @@ hr {
   margin: 0;
   padding: 0;
   border: 0;
-  background-image: url('/imgs/hr.png?1339579903');
+  background-image: url('/imgs/hr.png?1347275296');
 }
 
-/* line 15, ../sass/header.scss */
+/* line 15, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header {
   *zoom: 1;
   margin-bottom: 10px;
 }
-/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 body > header:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 19, ../sass/header.scss */
+/* line 19, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header #logo {
   position: absolute;
   margin-top: 20px;
   left: 5px;
 }
-/* line 25, ../sass/header.scss */
+/* line 25, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header nav {
   position: relative;
   display: inline-block;
   float: right;
 }
-/* line 30, ../sass/header.scss */
+/* line 30, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header nav > ul {
   display: inline-block;
   padding-top: 46px;
 }
-/* line 33, ../sass/header.scss */
+/* line 33, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header nav > ul > li {
   position: relative;
   margin-left: 45px;
@@ -148,7 +148,7 @@ body > header nav > ul > li {
   display: inline-block;
   background-color: white;
 }
-/* line 5, ../sass/rollout.scss */
+/* line 5, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/rollout.scss */
 body > header nav > ul > li ul {
   max-height: 0;
   -webkit-transition: max-height 1s linear;
@@ -156,32 +156,33 @@ body > header nav > ul > li ul {
   -ms-transition: max-height 1s linear;
   -o-transition: max-height 1s linear;
   transition: max-height 1s linear;
+  z-index: 900;
 }
-/* line 10, ../sass/rollout.scss */
+/* line 11, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/rollout.scss */
 body > header nav > ul > li:hover ul {
   max-height: 400px !important;
 }
-/* line 40, ../sass/header.scss */
+/* line 40, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header nav > ul > li figure {
   border: 1px solid white;
   margin-bottom: 5px;
 }
-/* line 43, ../sass/header.scss */
+/* line 43, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header nav > ul > li figure .normal {
   display: block;
 }
-/* line 46, ../sass/header.scss */
+/* line 46, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header nav > ul > li figure .hover {
   display: none;
 }
-/* line 50, ../sass/header.scss */
+/* line 50, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header nav > ul > li ul {
   position: absolute;
   overflow: hidden;
   background-color: white;
   width: 200px;
 }
-/* line 55, ../sass/header.scss */
+/* line 55, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header nav > ul > li ul li {
   font-family: 'Ruluko';
   color: #707070;
@@ -190,27 +191,27 @@ body > header nav > ul > li ul li {
   font-weight: normal;
   margin: 10px;
 }
-/* line 29, ../sass/fonts.scss */
+/* line 29, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/fonts.scss */
 body > header nav > ul > li ul li a, body > header nav > ul > li ul li a:link a:active, body > header nav > ul > li ul li a:visited, body > header nav > ul > li ul li a:hover {
   color: inherit;
   font-size: inherit;
   text-decoration: inherit;
   font-weight: inherit;
 }
-/* line 35, ../sass/fonts.scss */
-body > header nav > ul > li ul li a:hover, body > header nav > ul > li ul li a.activer {
+/* line 35, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/fonts.scss */
+body > header nav > ul > li ul li a:hover, body > header nav > ul > li ul li a.active {
   color: #84acb0;
 }
-/* line 63, ../sass/header.scss */
+/* line 63, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header nav > ul li:hover figure .normal {
   display: none;
 }
-/* line 66, ../sass/header.scss */
+/* line 66, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/header.scss */
 body > header nav > ul li:hover figure .hover {
   display: block;
 }
 
-/* line 6, ../sass/footer.scss */
+/* line 6, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/footer.scss */
 footer {
   font-family: 'Ruluko';
   color: #707070;
@@ -220,144 +221,141 @@ footer {
   line-height: 1.5em;
   width: 100%;
 }
-/* line 14, ../sass/fonts.scss */
+/* line 14, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/fonts.scss */
 footer a, footer a:link a:active, footer a:visited, footer a:hover {
   color: inherit;
   font-size: inherit;
   text-decoration: inherit;
   font-weight: inherit;
 }
-/* line 10, ../sass/footer.scss */
+/* line 10, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/footer.scss */
 footer hr {
   margin: 3px;
 }
-/* line 14, ../sass/footer.scss */
+/* line 14, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/footer.scss */
 footer #footerbar {
   display: block;
   position: relative;
   top: 0px;
   width: 100%;
 }
-/* line 21, ../sass/footer.scss */
+/* line 21, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/footer.scss */
 footer div {
   width: 100%;
 }
-/* line 23, ../sass/footer.scss */
+/* line 23, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/footer.scss */
 footer div > span {
   display: inline-block;
 }
-/* line 28, ../sass/footer.scss */
+/* line 28, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/footer.scss */
 footer nav {
   float: right;
 }
-/* line 30, ../sass/footer.scss */
+/* line 30, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/footer.scss */
 footer nav ul {
   display: inline-block;
 }
-/* line 34, ../sass/footer.scss */
+/* line 34, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/footer.scss */
 footer nav li {
   display: inline-block;
 }
 
-/* line 12, ../sass/project.scss */
-nav#thumbbar {
+/* line 13, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content nav#thumbbar {
   width: 100%;
   text-align: left;
 }
-/* line 15, ../sass/project.scss */
-nav#thumbbar .project {
+/* line 16, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content nav#thumbbar .project {
   display: inline-block;
   margin: 0 3px;
   background-color: #84acb0;
   line-height: 1em;
   height: 12px;
 }
-/* line 22, ../sass/project.scss */
-nav#thumbbar .project a.active img {
+/* line 23, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content nav#thumbbar .project a.active img {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
-
-/* line 28, ../sass/project.scss */
-hr {
+/* line 29, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content hr {
   margin: 5px 0;
   padding: 0;
 }
-
-/* line 34, ../sass/project.scss */
-header .short {
+/* line 35, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content header a:link, #content header a:active, #content header a:hover, #content header a:visited, #content header a {
+  color: #84acb0 !important;
+}
+/* line 38, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content header .short {
   font-size: 11pt;
 }
-/* line 37, ../sass/project.scss */
-header .video {
+/* line 41, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content header .video {
   float: right;
   margin-right: 3px;
 }
-/* line 40, ../sass/project.scss */
-header .video img {
+/* line 44, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content header .video img {
   margin-right: 3px;
   vertical-align: middle;
 }
-
-/* line 47, ../sass/project.scss */
-#frontpage {
+/* line 51, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content #frontpage {
   display: block !important;
 }
-
-/* line 51, ../sass/project.scss */
-.images {
+/* line 55, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content .images {
   display: none;
   position: relative;
   width: 100%;
 }
-/* line 55, ../sass/project.scss */
-.images img {
+/* line 59, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content .images img {
   position: absolute;
 }
-/* line 58, ../sass/project.scss */
-.images:target {
+/* line 62, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content .images:target {
   display: block;
 }
-
-/* line 63, ../sass/project.scss */
-#prev, #next {
+/* line 67, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content #prev, #content #next {
   position: absolute;
   width: 37px;
   height: 58px;
   top: 330px;
 }
-
-/* line 70, ../sass/project.scss */
-#prev {
+/* line 74, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content #prev {
   left: 23px;
-  background-image: url('/imgs/arrows/arrow_left.png?1339581409');
+  background-image: url('/imgs/arrows/arrow_left.png?1347275296');
 }
-/* line 73, ../sass/project.scss */
-#prev:hover {
-  background-image: url('/imgs/arrows/arrow_left_hover.png?1339581388');
+/* line 77, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content #prev:hover {
+  background-image: url('/imgs/arrows/arrow_left_hover.png?1347275296');
 }
-
-/* line 78, ../sass/project.scss */
-#next {
+/* line 82, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content #next {
   right: -52px;
-  background-image: url('/imgs/arrows/arrow_right.png?1339581458');
+  background-image: url('/imgs/arrows/arrow_right.png?1347275296');
 }
-/* line 81, ../sass/project.scss */
-#next:hover {
-  background-image: url('/imgs/arrows/arrow_right_hover.png?1339581448');
+/* line 85, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/project.scss */
+#content #next:hover {
+  background-image: url('/imgs/arrows/arrow_right_hover.png?1347275296');
 }
 
-/* line 9, ../sass/textcontent.scss */
+/* line 9, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/textcontent.scss */
 #content {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 14, ../sass/textcontent.scss */
+/* line 14, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/textcontent.scss */
 #textcontent {
   margin-left: 260px;
   margin-top: 40px;
-  width: 400px;
+  width: 500px;
   height: auto;
   font-family: 'Ruluko';
   color: #707070;
@@ -366,35 +364,35 @@ header .video img {
   font-weight: normal;
   line-height: 1.5em;
 }
-/* line 47, ../sass/fonts.scss */
+/* line 47, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/fonts.scss */
 #textcontent a, #textcontent a:link a:active, #textcontent a:visited, #textcontent a:hover {
   color: inherit;
   font-size: inherit;
   text-decoration: inherit;
   font-weight: inherit;
 }
-/* line 53, ../sass/fonts.scss */
-#textcontent a:hover, #textcontent a.activer {
+/* line 53, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/fonts.scss */
+#textcontent a:hover, #textcontent a.active {
   color: #84acb0;
 }
-/* line 20, ../sass/textcontent.scss */
+/* line 20, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/textcontent.scss */
 #textcontent h1 {
   margin-top: 10px;
   color: #84acb0;
 }
-/* line 24, ../sass/textcontent.scss */
+/* line 24, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/textcontent.scss */
 #textcontent a, #textcontent a:link, #textcontent a:hover, #textcontent a:active, #textcontent a:visited {
   color: #84acb0 !important;
 }
-/* line 27, ../sass/textcontent.scss */
+/* line 27, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/textcontent.scss */
 #textcontent hr {
   margin: 10px 0;
 }
-/* line 32, ../sass/textcontent.scss */
+/* line 32, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/textcontent.scss */
 #textcontent table#cv td:last-child {
   padding: 5px 11px;
 }
-/* line 35, ../sass/textcontent.scss */
+/* line 35, /Volumes/case-sensitive/dev/self/paulinealtmann.de/sass/textcontent.scss */
 #textcontent table#cv td:first-child {
   padding: 5px 0;
   width: 80px;

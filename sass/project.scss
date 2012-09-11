@@ -9,76 +9,81 @@ $dotbar-spacing: 5px;
 $navbuttonwidth: 37px;
 $navbuttonheight: 58px;
 
-nav#thumbbar {
-	width: 100%;
-	text-align: left;
-	.project {
-		display: inline-block;
-		margin: 0 $thumbgroup-spacing;
-		background-color: $turquoise;
-		line-height: 1em;
-		height: 12px; // Dirty fix!
-		a.active {
-			img {
-				@include opacity($tinting);
+#content {
+	nav#thumbbar {
+		width: 100%;
+		text-align: left;
+		.project {
+			display: inline-block;
+			margin: 0 $thumbgroup-spacing;
+			background-color: $turquoise;
+			line-height: 1em;
+			height: 12px; // Dirty fix!
+			a.active {
+				img {
+					@include opacity($tinting);
+				}
 			}
 		}
 	}
-}
-hr {
-	margin: $dotbar-spacing 0;
-	padding: 0;
-}
-
-header {
-	.short {
-		font-size: 11pt;
+	hr {
+		margin: $dotbar-spacing 0;
+		padding: 0;
 	}
-	.video {
-		float: right;
-		margin-right: $thumbgroup-spacing;
-		img {
+
+	header {
+		a:link, a:active, a:hover, a:visited, a {
+			color: $turquoise !important;
+		}
+		.short {
+			font-size: 11pt;
+		}
+		.video {
+			float: right;
 			margin-right: $thumbgroup-spacing;
-			vertical-align: middle;
+			img {
+				margin-right: $thumbgroup-spacing;
+				vertical-align: middle;
+			}
 		}
 	}
-}
 
-#frontpage {
-	display: block !important;
-}
+	#frontpage {
+		display: block !important;
+	}
 
-.images {
-	display: none;
-	position: relative;
-	width: 100%;
-	img {
+	.images {
+		display: none;
+		position: relative;
+		width: 100%;
+		img {
+			position: absolute;
+		}
+		&:target {
+			display: block;
+		}
+	}
+
+	#prev, #next {
 		position: absolute;
+		width: $navbuttonwidth;
+		height: $navbuttonheight;
+		top: 330px;;
 	}
-	&:target {
-		display: block;
+
+	#prev {
+		left: 23px;
+		@include background-image(image-url("arrows/arrow_left.png"));
+		&:hover {
+			@include background-image(image-url("arrows/arrow_left_hover.png"));
+		}
 	}
-}
 
-#prev, #next {
-	position: absolute;
-	width: $navbuttonwidth;
-	height: $navbuttonheight;
-	top: 330px;;
-}
-
-#prev {
-	left: 23px;
-	@include background-image(image-url("arrows/arrow_left.png"));
-	&:hover {
-		@include background-image(image-url("arrows/arrow_left_hover.png"));
-	}
-}
-
-#next {
-	right: -52px;
-	@include background-image(image-url("arrows/arrow_right.png"));
-	&:hover {
-		@include background-image(image-url("arrows/arrow_right_hover.png"));
+	#next {
+		right: -52px;
+		@include background-image(image-url("arrows/arrow_right.png"));
+		&:hover {
+			@include background-image(image-url("arrows/arrow_right_hover.png"));
+		}
 	}
 }

@@ -1,28 +1,31 @@
 ---
 layout: project
-title: typo
-category: typo
+title: illu
+category: illu
 images:
-  - name: doku_hs_01_01.png
-    link: typo-hin_weg.html#page1
+  - name: deckblatt_01_01.jpg
+    link: illu-durcheinanderland.html#page1
     position:
       x: 0
-      y: 10
-  - name: doku_hs_01_02.png
-    link: typo-hin_weg.html#page2
+      y: 45
+  - name: deckblatt_01_02.jpg
+    link: illu-schwarzgelb.html#page1
     position:
-      x: 376
-      y: 15
-  - name: doku_hs_01_03.png
+      x: 120
+      y: 305
+  - name: deckblatt_01_03.jpg
+    link: illu-tempelhof.html#page1
     position:
-      x: 599
-      y: 15
-  - name: doku_hs_01_04.png
+      x: 360
+      y: 45
+  - name: deckblatt_01_04.jpg
+    link: illu-zelte.html#page1
     position:
-      x: 423
-      y: 233
-  - name: doku_hs_01_05.png
+      x: 710
+      y: 243
+  - name: deckblatt_01_05.jpg
+    link: illu-konfrontation.html#page1
     position:
-      x: 641
-      y: 233
+      x: 710
+      y: 45
 ---
