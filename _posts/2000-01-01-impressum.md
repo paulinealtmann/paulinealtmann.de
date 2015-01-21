@@ -20,7 +20,7 @@ Programmierung
 ==============
 [Alexander Surma](mailto:surma@surmair.de)
 
-© Copyright Pauline Altmann, 2010-2012
+© Copyright Pauline Altmann, 2010-2014
 ======================================
 Der Inhalt dieser Seiten ist urheberrechtlich geschützt. Die Inhalte sind nur für die persönliche Information bestimmt. Jede weitergehende Verwendung, Veröffentlichung, Vervielfältigung und jede Form von gewerblicher Nutzung sowie die Weitergabe an Dritte – auch in Teilen oder in überarbeiteter Form – ohne meine Zustimmung ist untersagt.
 

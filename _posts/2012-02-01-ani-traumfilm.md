@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Traumland"
-type: "Kurzfilm und Buch"
+type: "Kurzfilm"
 additional: "2007 im Kurs Grafikdesign bei Prof. Lex Drewinski"
 category: ani
 video: http://player.vimeo.com/video/14210131
@@ -29,5 +29,5 @@ pages:
           x: 354
           y: 214
 ---
-Ich führte eine Umfrage zu Träumen und gestaltete zu dieser ein Buch und einen illustrativen Kurzfilm. Mehr zum Buch [hier.](./typo-traumbuch.html#page1)   
+Illustrativer Kurzfilm zum Thema Träume.
 Technik: After Effects · Format: 4:3 · Länge: 2:26 Min.

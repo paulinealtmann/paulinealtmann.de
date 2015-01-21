@@ -8,51 +8,51 @@ images:
   - name: startseite_01_01.jpg
     link: illu-tempelhof.html#page1
     position:
-      x: 50
+      x: 15
       y: 60
   - name: startseite_01_02.jpg
-    link: ani-traumfilm.html#page1
+    link: illu-monster.html#page1
     position:
-      x: 0
-      y: 310
+      x: 210
+      y: 45
   - name: startseite_01_03.jpg
-    link: typo-typoplakate.html#page1
+    link: illu-typoplakate.html#page1
     position:
-      x: 247
-      y: -10
+      x: 748
+      y: 310
   - name: startseite_01_04.jpg
-    link: typo-hin_weg.html#page1
+    link: typo-runge.html#page1
     position:
-      x: 245
-      y: 150
+      x: 412
+      y: 305
   - name: startseite_01_05.jpg
-    link: and-asdf.html#page1
+    link: typo-raffles.html#page1
     position:
-      x: 250
-      y: 380
+      x: 584
+      y: 306
   - name: startseite_01_06.jpg
-    link: typo-nest_magazin.html#page1
+    link: typo-kraehen.html#page1
     position:
-      x: 410
-      y: 72
+      x: 584
+      y: 120
   - name: startseite_01_07.jpg
     link: ani-lightning.html#page1
     position:
-      x: 412
-      y: 280
+      x: 0
+      y: 308
   - name: startseite_01_08.jpg
     link: typo-15_jahre_villa_aurora.html#page1
     position:
-      x: 570
-      y: 50
+      x: 243
+      y: 308
   - name: startseite_01_09.jpg
     link: typo-dokumentation_haupstudium.html#page1
     position:
-      x: 660
-      y: 280
+      x: 408
+      y: 78
   - name: startseite_01_10.jpg
-    link: illu-konfrontation.html#page1
+    link: typo-tintentanz.html#page1
     position:
-      x: 745
-      y: 120
+      x: 714
+      y: 80
 ---
