@@ -6,30 +6,39 @@
 	</figure>
 	<nav>
 		<ul>
-			{% for item in page.menu %}
+			{% assign sortedPages = site.pages | sort:'in_menu' %}
+			{% for item in sortedPages %}
+				{% unless item.in_menu %}
+					{% continue %}
+				{% endunless %}
+				{% if item.url == "/" %}
+					{% continue %}
+				{% endif %}
+
 				<li>
 					<figure>
-						<a href="{{url}}/{{item}}.html">
-							{% if page.category contains item and page.is_main != true %}
-								<img src="{{url}}/imgs/header/{{item}}button_active.png" class="normal" />
-							{% else %}
-								<img src="{{url}}/imgs/header/{{item}}button.png" class="normal" />
-							{% endif %}
-							<img src="{{url}}/imgs/header/{{item}}button_hover.png" class="hover" />
-						</a>
+					  <a href="{{url}}/{{item.title}}.html">
+					    {% if page.category contains item.title and page.is_main != true %}
+					      <img src="{{url}}/imgs/header/{{item.title}}button_active.png" class="normal" />
+					    {% else %}
+					      <img src="{{url}}/imgs/header/{{item.title}}button.png" class="normal" />
+					    {% endif %}
+					    <img src="{{url}}/imgs/header/{{item.title}}button_hover.png" class="hover" />
+					  </a>
 					</figure>
-					{% unless item contains "ueb" %}
-						<ul>
-							{% for post in site.posts %}
-								{% if post.category contains item %}
-									<li>
-										<a href="{{url}}{{post.url}}#page1">{{post.title}}</a>
-									</li>
-								{% endif %}
-							{% endfor %}
-						</ul>
+					{% unless item.title contains "ueb" %}
+					  <ul>
+					    {% for post in site.posts %}
+					      {% if post.category contains item.title %}
+					        <li>
+					          <a href="{{url}}{{post.url}}#page1">{{post.title}}</a>
+					        </li>
+					      {% endif %}
+					    {% endfor %}
+					  </ul>
 					{% endunless %}
-				</li>
+					</li>
+
 			{% endfor %}
 		</ul>
 	</nav>

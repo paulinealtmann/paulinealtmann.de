@@ -1,6 +1,8 @@
 ---
 layout: textcontent
 category: ueb
+in_menu: 5
+title: ueb
 cv:
   - date: seit 03/13
     details: >
@@ -24,9 +26,9 @@ cv:
 
 *****
 
-Pauline Altmann lebt und arbeitet in Berlin als freiberuflich tätige Buchgestalterin, Typografin und Grafikdesignerin. 
+Pauline Altmann lebt und arbeitet in Berlin als freiberuflich tätige Buchgestalterin, Typografin und Grafikdesignerin.
 Noch während ihres Studiums an der Fachhochschule Potsdam erschien das von ihr gestaltete Buch »Tintentanz« im Verlag [Hermann  
-Schmidt Mainz](http://www.typografie.de/web/). Seit 2013 gestaltet sie mit Judith Schalansky die bei [Matthes & Seitz Berlin](http://www.matthes-seitz-berlin.de) erscheinende Buchreihe »Naturkunden«. 
+Schmidt Mainz](http://www.typografie.de/web/). Seit 2013 gestaltet sie mit Judith Schalansky die bei [Matthes & Seitz Berlin](http://www.matthes-seitz-berlin.de) erscheinende Buchreihe »Naturkunden«.
 
 *****
 

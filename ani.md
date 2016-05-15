@@ -2,6 +2,7 @@
 layout: project
 title: ani
 category: ani
+in_menu: 2
 images:
   - name: deckblatt_01_01.jpg
     link: ani-hajoreh.html#page1

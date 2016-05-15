@@ -2,6 +2,7 @@
 layout: project
 title: illu
 category: illu
+in_menu: 3
 images:
   - name: deckblatt_01_01.jpg
     link: illu-durcheinanderland.html#page1

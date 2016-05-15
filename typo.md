@@ -2,6 +2,7 @@
 layout: project
 title: typo
 category: typo
+in_menu: 1
 images:
   - name: deckblatt_01_01.jpg
     link: typo-tintentanz.html#page1

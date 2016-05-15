@@ -1,5 +1,3 @@
-auto:        true
-
 source:      .
 destination: ./_site
 url:         http://www.paulinealtmann.de
