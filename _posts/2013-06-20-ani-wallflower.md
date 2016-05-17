@@ -46,5 +46,5 @@ pages:
           y: 205      
 ---
 Interpretation des Instrumentalstücks »Wallflower« der dänischen Musikerin Agnes Obel. 
-[Portfolio von Arthur Buliz ansehen.](http://cargocollective.com/Portfolio_ArthurBuliz)   
+[Portfolio von Arthur Buliz ansehen.](http://cargocollective.com/ArthurBuliz)   
 Umfang: Film, Dvd-Hülle mit Booklet und Plakat. Technik: Legetrickanimation, After Effects · Format: 16:9 · Länge: 2:46 Min. 

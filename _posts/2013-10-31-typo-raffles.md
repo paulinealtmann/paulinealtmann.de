@@ -51,5 +51,5 @@ pages:
           y: 230
 ---
 Band 6 der Buchreihe [»Naturkunden«](http://www.naturkunden.de), herausgegeben von Judith Schalansky bei Matthes & Seitz Berlin.  
-Einband und Typografie durchgesehen von Judith Schalansky. Durchgängig zweifarbig, mit 80 Abbildungen und Kapitelvignetten.  
+Einband und Typografie durchgesehen von Judith Schalansky. Durchgängig zweifarbig, mit 80 Abbildungen und [Kapitelvignetten](http://www.paulinealtmann.de/illu-insekten.html#page1).  
 Format: Kleinquart · Umfang: 380 Seiten · flexibler Einband, fadengeheftet, mit Kopfschnitt und Lesebändchen
