@@ -10,10 +10,10 @@ pages:
       - name: gespenster_01_01.jpg
         position:
           x: -5
-          y: 3
+          y: 10
       - name: gespenster_01_02.jpg
         position:
-          x: 315
+          x: 313
           y: 125
       - name: gespenster_01_03.jpg
         position:
